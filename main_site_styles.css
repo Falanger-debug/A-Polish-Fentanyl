@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #169EF1;
+    width: 100%;
+    height: 15vh;
+    margin: 0;
+    display: flex;
+    stroke: white;
+    stroke-width: 5px;
+    color: white;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.nav_links{
+    color: inherit;
+}
+
+
+.drunk-man-image{
+    width: 100%;
+}

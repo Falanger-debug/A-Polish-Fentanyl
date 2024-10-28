@@ -1,62 +1,97 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header{
-    background-color: #169EF1;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+    background-color: #3977c3;
     width: 100%;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.header {
+    font-family: "Book Antiqua", sans-serif;
     height: 15vh;
     display: flex;
     justify-content: space-between;
+    max-width: 2000px;
+    margin: 0 auto;
     align-items: center;
     color: white;
     padding: 0 10vw;
 }
 
-.title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
+.title {
+    font-size: 3vw;
     font-weight: bold;
+    margin-right: 2vw;
+    /*margin-top: 3vw;*/
+    /*margin-bottom: 3vw;*/
+    flex-shrink: 0;
+    text-align: center;
 }
 
-.nav_links a{
+.nav_links {
+    display: flex;
+}
+
+.nav_links a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1vw;
     color: white;
     text-decoration: none;
     margin-left: 2vw;
+    display: flex;
+    align-items: center;
 }
 
-.nav_links a:hover{
+.nav_links a span {
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+    .nav_links a span {
+        display: none;
+    }
+}
+
+.nav_links a:hover {
     text-decoration: underline;
 }
 
-.language-switch i{
+.nav-icon {
     margin-right: 0.5rem;
 }
 
-.hero-section{
+.hero-section {
     position: relative;
     text-align: left;
     color: white;
 }
 
-.hero-image{
+.hero-image {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-.hero-text{
+.hero-text {
     position: absolute;
     top: 20%;
     left: 10%;
     max-width: 40%;
 }
 
-.hero-text h1{
+.hero-text h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
@@ -69,7 +104,7 @@
     margin-bottom: 1.5rem;
 }
 
-.learn-more{
+.learn-more {
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
     color: white;
@@ -81,63 +116,14 @@
     font-weight: bold;
 }
 
-.learn-more:hover{
-    background-color: #169EF1;
+.learn-more:hover {
+    background-color: #3977c3;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.about-section {
+    position: relative;
+    text-align: left;
+    background-color: #E9A151;
+    height: 50vh;
+}
 

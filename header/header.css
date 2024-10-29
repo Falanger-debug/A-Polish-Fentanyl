@@ -1,17 +1,6 @@
-/* General reset for padding and margins */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
 .header {
-    background-color: #3d74c3; /* Blue background */
-    padding: 20px 0; /* Vertical padding */
+    background-color: #3d74c3;
+    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,17 +13,17 @@ body {
     font-weight: bold;
     margin-left: 20px;
     color: white;
-    text-decoration: none; /* No underline on the link */
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .title:hover {
-    color: #d1e0f3; /* Light color on hover */
+    color: #d1e0f3;
 }
 
 .nav_links {
     display: flex;
-    gap: 30px; /* Space between links */
+    gap: 30px;
     margin-right: 20px;
 }
 
@@ -44,21 +33,20 @@ body {
     font-size: 1em;
     display: flex;
     align-items: center;
-    gap: 8px; /* Space between icon and text */
+    gap: 8px;
     transition: color 0.3s ease;
 }
 
 .nav_links a:hover {
-    color: #d1e0f3; /* Lighter color on hover */
+    color: #d1e0f3;
 }
 
 .nav_links i {
     font-size: 1em;
 }
 
-/* Media query for smaller screens - hide text */
 @media (max-width: 650px) {
     .nav_links a span {
-        display: none; /* Hide text on smaller screens */
+        display: none;
     }
 }

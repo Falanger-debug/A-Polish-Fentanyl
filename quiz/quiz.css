@@ -3,9 +3,42 @@
     width: 100%;
     height: 90vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly ;
     color: #ffffff;
     font-family: Arial, sans-serif;
+}
+
+.left-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-welcome h1 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+}
+
+.left-welcome a {
+    text-decoration: none;
+    color: black;
+    background-color: #ff8644;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 55px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.right-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-welcome img{
+    height: 450px;
 }

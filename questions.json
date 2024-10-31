@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What type of drug is alcohol?",
+    "choices": ["Stimulant", "Opioid", "Depressant", "Hallucinogen"],
+    "correctAnswer": "C"
+  }
+
+]

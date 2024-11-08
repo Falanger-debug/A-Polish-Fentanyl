@@ -18,31 +18,30 @@ body{
     border-radius: 55px;
 }
 
-.question{
+#question{
     background-color: #ff8644;
     color: black;
     border: solid 3px white;
     border-radius: 55px;
+    width: 90vh;
+    text-align: center;
+    padding: 5vh;
 }
 
-.row-1-type{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+#choices-container{
+    display: flow;
+    text-align: center;
+    .data-choice{
 
-.row-2-type{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.answer {
-
+    }
 
 }
 
-.next-button{
+
+#check-answer{
+    background-color: #ff8644;
+    color: black;
+    border: solid 3px white;
+    border-radius: 55px;
 
 }

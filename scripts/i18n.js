@@ -1,5 +1,3 @@
-// scripts/i18n.js
-
 const translations = {
     en: null,
     pl: null
@@ -27,20 +25,28 @@ async function changeLanguage(lang) {
     });
 
     // Aktualizacja tekstu przycisku zmiany języka
-    document.querySelector('.language-switch span').textContent = i18n.language;
+    const languageSwitch = document.querySelector('.language-switch span');
+    if (languageSwitch) {
+        languageSwitch.textContent = i18n.language;
+    }
 
     // Zapisanie preferencji w localStorage
     localStorage.setItem('lang', lang);
     currentLang = lang;
 }
 
-// Inicjalizacja
-document.addEventListener('DOMContentLoaded', () => {
-    changeLanguage(currentLang);
+// Inicjalizacja języka
+async function initI18n() {
+    await changeLanguage(currentLang);
 
     // Obsługa zmiany języka po kliknięciu
-    document.querySelector('.language-switch').addEventListener('click', () => {
-        const newLang = currentLang === 'en' ? 'pl' : 'en';
-        changeLanguage(newLang);
-    });
-});
+    const languageSwitch = document.querySelector('.language-switch');
+    if (languageSwitch) {
+        languageSwitch.addEventListener('click', () => {
+            const newLang = currentLang === 'en' ? 'pl' : 'en';
+            changeLanguage(newLang);
+        });
+    } else {
+        console.error('Element .language-switch not found');
+    }
+}

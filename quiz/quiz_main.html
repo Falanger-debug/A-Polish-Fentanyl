@@ -16,11 +16,11 @@
 <body>
 <div id="header"></div>
 
-<div class="quiz-welcome">
+<div class="quiz-welcome" id="quiz-welcome">
 
   <div class="left-welcome">
-    <h1>All About Alcohol</h1>
-    <a href="quiz_1.html" class="start-quiz-button">Start Quiz</a>
+    <h1 data-i18n="welcomeMessage">All About Alcohol</h1>
+    <a href="quiz_1.html" class="start-quiz-button" data-i18n="quizStartButton">Start Quiz</a>
   </div>
 
   <div class="right-welcome">
@@ -35,8 +35,8 @@
   </div>
 
   <div class="right-about">
-    <h1>The purpose</h1>
-    <p>This website was created to raise public awareness about alcohol.
+    <h1 data-i18n="aboutH1">The purpose</h1>
+    <p data-i18n="aboutP">This website was created to raise public awareness about alcohol.
       My focus is primarily on occasional drinkers.
       Many people are not fully aware of the effects of ethanol consumption, even in small amounts, occasionally.
       Warning: You may not want to get to know. Knowledge that is gathered on this website is hard to accept for many
@@ -51,5 +51,6 @@
 
 </div>
 
+<script src="../scripts/i18n.js" defer></script>
 </body>
 </html>

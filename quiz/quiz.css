@@ -1,12 +1,35 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0c4f7b;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 .quiz-welcome {
     background-color: #0c4f7b;
     width: 100%;
     height: 90vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly ;
+    justify-content: space-between;
+    align-items: center;
     color: #ffffff;
     font-family: Arial, sans-serif;
+    padding: 0 10%;
 }
 
 .left-welcome {
@@ -15,11 +38,12 @@
     justify-content: center;
 }
 
-.left-welcome h1 {
+h1 {
     color: white;
     font-family: Arial, sans-serif;
     font-size: 4em;
-    margin-top: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
     @media (max-width: 700px){
         font-size: 1em;
     }
@@ -33,7 +57,7 @@
 
 
 
-.left-welcome a {
+.left-welcome a, p {
     text-decoration: none;
     color: black;
     background-color: #ff8644;
@@ -55,10 +79,11 @@
 }
 
 
-.right-welcome {
+.right-welcome{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
+    align-items: end;
 }
 
 .right-welcome img {
@@ -69,27 +94,36 @@
     box-shadow: 5px 0 5px white, -5px 0 5px white;
 }
 
-/*@media (max-width: 800px) {*/
-/*    .right-welcome img{*/
-/*        height: 10vh;*/
-/*    }*/
-/*}*/
+.about {
+    background-color: #0c4f7b;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 0 10%;
+}
+
+.left-about img {
+    border-color: #ff8644;
+    border-radius: 50%;
+    border-style: solid;
+    height: 50vh;
+    box-shadow: 5px 0 5px white, -5px 0 5px white;
+}
 
 
-/*@media (max-width: 1000px) {*/
-/*    .right-welcome img{*/
-/*        height: 250px;*/
-/*        border-width: 3px;*/
-/*    }*/
-/*}*/
-
-/*@media (min-width: 1001px){*/
-/*    .right-welcome img{*/
-/*        height: 450px;*/
-/*        border-width: 5px;*/
-/*    }*/
-/*}*/
-
+.right-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    max-width: 532px;
+}
 
 
 .footer{

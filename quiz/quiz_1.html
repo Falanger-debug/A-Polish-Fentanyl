@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+
+    <script src="../scripts/headerLoader.js"></script>
+    <script src="https://kit.fontawesome.com/d8e23ce567.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/x-icon" href="../images/sober_choice_logo.ico">
+
+    <link rel="stylesheet" href="../main/main_site_styles.css">
+    <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="quiz_rest.css">
+</head>
+<body>
+<div id="header"></div>
+
+<div class="container">
+    <div class="quiz-container">
+        <div id="question-container" class="question-container">
+            <h2 id="question">Question will appear here</h2>
+            <div id="choices" class="choices"></div>
+            <button id="next-button" class="next-button" onclick="nextQuestion()">Next Question</button>
+        </div>
+        <div id="result-container" class="result-container">
+            <h2>Your Score: <span id="score"></span></h2>
+            <button onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="../scripts/quiz.js"></script>
+</body>
+</html>

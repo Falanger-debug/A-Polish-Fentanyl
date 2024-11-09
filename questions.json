@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What type of drug is alcohol?",
+    "choices": ["Stimulant", "Opioid", "Depressant", "Hallucinogen"],
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Worldwide, how many deaths were caused by alcohol consumption in 2019?",
+    "choices": ["600,000", "2,600,000", "1,300,000", "4,000,000"],
+    "correctAnswer": "B"
+  },
+  {
+    "question": "How long after quitting alcohol does brain damage occur?",
+    "choices": ["2 weeks", "2 days", "6 weeks", "7 days"],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Is drinking wine good for health?",
+    "choices": ["It's complicated", "Yes, but with certain circumstances", "Absolutely no"],
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Worldwide, how many deaths were caused by alcohol consumption in 2019?",
+    "choices": ["600,000", "2,600,000", "1,300,000", "4,000,000"],
+    "correctAnswer": "B"
+  }
+]

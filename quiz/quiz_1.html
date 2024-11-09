@@ -18,17 +18,20 @@
 <div id="header"></div>
 
 <div class="container">
-    <div id="game" class="justify-center flex-column">
-        <h1 id="number">Loading...</h1>
-        <h1 id="question">Loading...</h1>
-
-        <div id="choices-container"></div>
-
-        <button id="check-answer">Check Answer</button>
+    <div class="quiz-container">
+        <div id="question-container" class="question-container">
+            <h2 id="question">Question will appear here</h2>
+            <div id="choices" class="choices"></div>
+            <button id="next-button" class="next-button" onclick="nextQuestion()">Next Question</button>
+        </div>
+        <div id="result-container" class="result-container">
+            <h2>Your Score: <span id="score"></span></h2>
+            <button onclick="restartQuiz()">Restart Quiz</button>
+        </div>
     </div>
 </div>
 
 
-<script src="../scripts/Quiz.js"></script>
+<script src="../scripts/quiz.js"></script>
 </body>
 </html>

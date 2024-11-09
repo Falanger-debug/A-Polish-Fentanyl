@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('header').innerHTML = headerContent;
 
         // Dopiero po załadowaniu nagłówka, możemy uruchomić i18n.js
-        initI18n();
+        await initI18n();
     } catch (error) {
         console.error('Error loading header:', error);
     }

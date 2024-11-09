@@ -1,6 +1,7 @@
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
+let selectedAnswerIndex = null;
 
 document.addEventListener("DOMContentLoaded", () => {
     fetch("../questions.json")
@@ -30,20 +31,31 @@ function showQuestion() {
         button.addEventListener("click", () => selectAnswer(index));
         choicesContainer.appendChild(button);
     });
+
+
 }
 
 function selectAnswer(selectedIndex) {
     const currentQuestion = questions[currentQuestionIndex];
-    const correctIndex = "ABCD".indexOf(currentQuestion.correctAnswer);
 
-    if (selectedIndex === correctIndex) {
-        score++;
-    }
+    const choiceButtons = document.querySelectorAll('.choice-button');
+    choiceButtons.forEach(button => button.classList.remove("selected"));
+
+    choiceButtons[selectedIndex].classList.add("selected");
+
+    selectedAnswerIndex = selectedIndex;
 
     document.getElementById("next-button").style.display = "block";
 }
 
 function nextQuestion() {
+
+    const currentQuestion = questions[currentQuestionIndex];
+    const currentCorrectIndex = "ABCD".indexOf(currentQuestion.correctAnswer);
+    if (currentCorrectIndex === selectedAnswerIndex) {
+        score += 1;
+    }
+
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
         showQuestion();

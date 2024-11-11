@@ -22,8 +22,15 @@
         <div id="question-container" class="question-container">
             <h2 id="question">Question will appear here</h2>
             <div id="choices" class="choices"></div>
+
+            <div id="explanation-container" class="explanation-container">
+                <p id="explanation-text">Explanation will appear here</p>
+                <button id="continue-button" onclick="continueToNextQuestion()">Continue</button>
+            </div>
+
             <button id="next-button" class="next-button" onclick="nextQuestion()">Next Question</button>
         </div>
+
         <div id="result-container" class="result-container">
             <h2>Your Score: <span id="score"></span></h2>
             <button onclick="restartQuiz()">Restart Quiz</button>

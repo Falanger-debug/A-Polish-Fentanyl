@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbfd7d9b-09e1-4199-bdd8-2416b3c95939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/main_background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/quiz_rest.css" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/quiz_rest.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/headerLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/headerLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics_sites/topics_sites.css" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/topics_sites.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +19,8 @@
       <list>
         <option value="package" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.carcinogenicity.html.executor": "Run",
     "JavaScript Debug.header.html.executor": "Run",
     "JavaScript Debug.main_site.html.executor": "Run",
     "JavaScript Debug.quiz.html.executor": "Run",
@@ -54,9 +52,10 @@
     "JavaScript Debug.quiz_2.html.executor": "Run",
     "JavaScript Debug.quiz_main.html.executor": "Run",
     "Node.js.headerLoader.js.executor": "Run",
+    "Node.js.quiz.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main__website",
-    "last_opened_file_path": "C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/images",
+    "git-widget-placeholder": "quiz",
+    "last_opened_file_path": "C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -100,7 +99,10 @@
       <workItem from="1730305622328" duration="2000" />
       <workItem from="1730978458444" duration="46000" />
       <workItem from="1731072624448" duration="10983000" />
-      <workItem from="1731142760647" duration="11499000" />
+      <workItem from="1731142760647" duration="12748000" />
+      <workItem from="1731157057687" duration="5244000" />
+      <workItem from="1731166194393" duration="946000" />
+      <workItem from="1731323507834" duration="6149000" />
     </task>
     <servers />
   </component>

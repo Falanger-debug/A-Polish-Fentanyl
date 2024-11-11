@@ -32,28 +32,62 @@ function showQuestion() {
         choicesContainer.appendChild(button);
     });
 
-
+    document.getElementById("next-button").style.display = "none";
+    document.getElementById("explanation-container").style.display = "none";
+    selectedAnswerIndex = null;
 }
 
 function selectAnswer(selectedIndex) {
     const currentQuestion = questions[currentQuestionIndex];
-
     const choiceButtons = document.querySelectorAll('.choice-button');
-    choiceButtons.forEach(button => button.classList.remove("selected"));
 
+    choiceButtons.forEach(button => button.classList.remove("selected"));
     choiceButtons[selectedIndex].classList.add("selected");
 
     selectedAnswerIndex = selectedIndex;
 
-    document.getElementById("next-button").style.display = "block";
+    // Pokaż okienko z wyjaśnieniem zaraz po wyborze odpowiedzi
+    const correctIndex = "ABCD".indexOf(currentQuestion.correctAnswer);
+    const isCorrect = selectedIndex === correctIndex;
+
+    // Wyświetlenie wyjaśnienia bez opóźnienia
+    showExplanation(isCorrect, currentQuestion.explanation);
+
+    // Ukrycie przycisku "Next Question" do czasu kliknięcia "Continue"
+    document.getElementById("next-button").style.display = "none";
 }
 
-function nextQuestion() {
+function showExplanation(isCorrect, explanation) {
+    const explanationContainer = document.getElementById("explanation-container");
+    const explanationText = document.getElementById("explanation-text");
 
+    explanationText.innerText = isCorrect
+        ? "Correct! " + explanation
+        : "Incorrect. " + explanation;
+
+    explanationContainer.style.display = "block"; // Upewniamy się, że element jest widoczny
+    explanationContainer.classList.remove("fade-out");
+    explanationContainer.classList.add("fade-in");
+}
+
+function hideExplanation() {
+    const explanationContainer = document.getElementById("explanation-container");
+    explanationContainer.classList.remove("fade-in");
+    explanationContainer.classList.add("fade-out");
+
+    setTimeout(() => {
+        explanationContainer.style.display = "none";
+        document.getElementById("next-button").style.display = "block";
+    }, 500); // Czas zgodny z animacją
+}
+
+
+function nextQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
-    const currentCorrectIndex = "ABCD".indexOf(currentQuestion.correctAnswer);
-    if (currentCorrectIndex === selectedAnswerIndex) {
-        score += 1;
+    const correctIndex = "ABCD".indexOf(currentQuestion.correctAnswer);
+
+    if (selectedAnswerIndex === correctIndex) {
+        score++;
     }
 
     currentQuestionIndex++;
@@ -62,14 +96,26 @@ function nextQuestion() {
     } else {
         showResult();
     }
-    document.getElementById("next-button").style.display = "none";
 }
+
+function continueToNextQuestion() {
+    const explanationContainer = document.getElementById("explanation-container");
+    explanationContainer.classList.remove("fade-in");
+    explanationContainer.classList.add("fade-out");
+
+    setTimeout(() => {
+        explanationContainer.style.display = "none";
+        document.getElementById("next-button").style.display = "block";
+    }, 500); // Czas musi być zgodny z długością animacji
+}
+
 
 function showResult() {
     document.getElementById("question-container").classList.remove("active");
     document.getElementById("result-container").classList.add("active");
     document.getElementById("score").innerText = `${score} / ${questions.length}`;
 }
+
 
 function restartQuiz() {
     currentQuestionIndex = 0;

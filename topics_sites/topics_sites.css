@@ -1,0 +1,58 @@
+body{
+    background: #0c4f7b;
+    padding-top: 60px;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+h1{
+    color: #ff8644;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container{
+    background-image: url("../images/topics_div_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80vw;
+    margin: auto auto 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-radius: 55px;
+    border: 5px solid black;
+    font-family: sans-serif;
+    padding: 15px;
+    align-items: flex-start;
+
+    h2{
+        background: white;
+        align-items: center;
+        font-size: 50px;
+        color:#3d74c3;
+        display: inline-flex;
+        border: 2px solid #ff8644;
+        border-radius: 55px;
+        padding: 10px;
+    }
+
+    p{
+        font-size: 30px;
+        color: black;
+        text-align: justify;
+
+    }
+
+
+
+}

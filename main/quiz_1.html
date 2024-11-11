@@ -9,10 +9,10 @@
 
     <link rel="icon" type="image/x-icon" href="../images/sober_choice_logo.ico">
 
-    <link rel="stylesheet" href="../main/main_site_styles.css">
+    <link rel="stylesheet" href="main_site_styles.css">
     <link rel="stylesheet" href="../header/header.css">
-    <link rel="stylesheet" href="quiz.css">
-    <link rel="stylesheet" href="quiz_rest.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../quiz/quiz_rest.css">
 </head>
 <body>
 <div id="header"></div>
@@ -25,10 +25,8 @@
 
             <div id="explanation-container" class="explanation-container">
                 <p id="explanation-text">Explanation will appear here</p>
-                <button id="continue-button" onclick="continueToNextQuestion()">Continue</button>
+                <button id="continue-button" onclick="nextQuestion()">Continue</button>
             </div>
-
-            <button id="next-button" class="next-button" onclick="nextQuestion()">Next Question</button>
         </div>
 
         <div id="result-container" class="result-container">

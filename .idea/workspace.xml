@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbfd7d9b-09e1-4199-bdd8-2416b3c95939" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/gradient_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/man_drinking_beer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/scrollButtons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/quiz_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz_rest.css" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/quiz_rest.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/topics_sites/topics_sites.css" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/topics_sites.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,6 +56,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.carcinogenicity.html.executor": "Run",
     "JavaScript Debug.header.html.executor": "Run",
+    "JavaScript Debug.main.html.executor": "Run",
     "JavaScript Debug.main_site.html.executor": "Run",
     "JavaScript Debug.quiz.html.executor": "Run",
     "JavaScript Debug.quiz_1.html.executor": "Run",
@@ -55,7 +66,7 @@
     "Node.js.quiz.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "quiz",
-    "last_opened_file_path": "C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW",
+    "last_opened_file_path": "C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -72,10 +83,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\images" />
-      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\scripts" />
+      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\images\gradient_background" />
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\main" />
+      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\scripts" />
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\header" />
-      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -102,7 +113,7 @@
       <workItem from="1731142760647" duration="12748000" />
       <workItem from="1731157057687" duration="5244000" />
       <workItem from="1731166194393" duration="946000" />
-      <workItem from="1731323507834" duration="6149000" />
+      <workItem from="1731323507834" duration="17200000" />
     </task>
     <servers />
   </component>

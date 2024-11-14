@@ -62,7 +62,7 @@ body {
     align-items: center;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    padding: 0;
+    padding: 0 50px 0 50px;
 }
 
 .left-welcome {
@@ -126,7 +126,7 @@ h1 {
     clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 3% 50%);
 }
 
-.left-about img, .right-topics img {
+#about-img, .right-topics img {
     border-color: #ff8644;
     border-radius: 50%;
     border-style: solid;

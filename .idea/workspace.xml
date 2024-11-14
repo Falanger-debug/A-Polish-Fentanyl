@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbfd7d9b-09e1-4199-bdd8-2416b3c95939" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/topics_sites.css" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/topics_sites.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +16,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,41 +39,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.carcinogenicity.html.executor": "Run",
-    "JavaScript Debug.header.html.executor": "Run",
-    "JavaScript Debug.main_site.html.executor": "Run",
-    "JavaScript Debug.quiz.html.executor": "Run",
-    "JavaScript Debug.quiz_1.html.executor": "Run",
-    "JavaScript Debug.quiz_2.html.executor": "Run",
-    "JavaScript Debug.quiz_main.html.executor": "Run",
-    "Node.js.headerLoader.js.executor": "Run",
-    "Node.js.quiz.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "quiz",
-    "last_opened_file_path": "C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.carcinogenicity.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.header.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.main.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.main_site.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.quiz.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.quiz_1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.quiz_2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.quiz_main.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.headerLoader.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.quiz.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;quiz&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\images" />
-      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\scripts" />
+      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\images\gradient_background" />
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\main" />
+      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\scripts" />
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\header" />
-      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -102,7 +101,10 @@
       <workItem from="1731142760647" duration="12748000" />
       <workItem from="1731157057687" duration="5244000" />
       <workItem from="1731166194393" duration="946000" />
-      <workItem from="1731323507834" duration="6149000" />
+      <workItem from="1731323507834" duration="17785000" />
+      <workItem from="1731401686704" duration="685000" />
+      <workItem from="1731486787533" duration="350000" />
+      <workItem from="1731583466055" duration="2690000" />
     </task>
     <servers />
   </component>

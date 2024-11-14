@@ -24,8 +24,8 @@ body {
     background-color: #3d74c3;
     border-radius: 15px;
     padding: 20px;
-    width: 80%;
-    max-width: 600px;
+    width: 50%;
+    height: auto;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -39,7 +39,7 @@ body {
 }
 
 #question {
-    font-size: 1.5em;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
@@ -49,8 +49,9 @@ body {
     border: none;
     padding: 10px;
     margin: 5px 0;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
+    font-size: 2em;
     font-weight: bold;
     width: 100%;
     transition: background-color 0.3s;
@@ -89,17 +90,18 @@ body {
 #score {
     color: #ff8644;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .explanation-container {
     opacity: 0;
     display: none;
-    background-image: url("../images/main_background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    /*background-image: url("../images/main_background.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
     color: white;
+    font-size: 1em;
     padding: 15px;
     border-radius: 10px;
     margin-top: 20px;
@@ -113,14 +115,14 @@ body {
 
 /* Animacje fade-in i fade-out */
 .fade-in {
-    display: block; /* Upewniamy się, że element jest widoczny przy fade-in */
+    display: block;
     opacity: 0;
-    animation: fadeIn 0.5s forwards;
+    animation: fadeIn 1s forwards;
 }
 
 .fade-out {
     opacity: 1;
-    animation: fadeOut 0.5s forwards;
+    animation: fadeOut 1s forwards;
 }
 
 @keyframes fadeIn {
@@ -140,8 +142,9 @@ body {
     border: none;
     padding: 10px;
     margin-top: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     font-weight: bold;
+    font-size: 1em;
 }
 

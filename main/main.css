@@ -92,6 +92,7 @@ h1 {
 #center-welcome{
     position: relative;
     z-index: 1;
+    animation: float 5s ease-in-out infinite;
 }
 
 #center-welcome a, p {
@@ -195,5 +196,14 @@ h1 {
     to {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+@keyframes float{
+    0%, 100% {
+        transform: translateY(0)scale(1);
+    }
+    50% {
+        transform: translateY(-10px) scale(1.02);
     }
 }

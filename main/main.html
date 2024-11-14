@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="../quiz/list-style.css">
+
+    <link rel="preload" href="../images/man_drinking_beer.png" as="image">
+    <link rel="preload" href="../images/man_drinking_beer1.png" as="image">
 </head>
 <body>
 <button id="scrollDown" class="scroll-button down">&darr;</button>
@@ -25,14 +28,14 @@
 
     <div class="quiz-welcome" id="quiz-welcome">
 
-        <img id="left-img" src="../images/man_drinking_beer1.png" alt="Man drinking beer"/>
+        <img id="left-img" class="slide-in left" src="../images/man_drinking_beer1.png" alt="Man drinking beer"/>
 
-        <div class="center-welcome">
+        <div id="center-welcome" class="slide-in top">
             <h1 data-i18n="welcomeMessage">All About Alcohol</h1>
             <a href="quiz_1.html" class="start-quiz-button" data-i18n="quizStartButton">Start Quiz</a>
         </div>
 
-        <img id="right-img" src="../images/man_drinking_beer.png" alt="Man drinking beer">
+        <img id="right-img" class="slide-in right" src="../images/man_drinking_beer.png" alt="Man drinking beer">
 
     </div>
 
@@ -74,12 +77,12 @@
 
 </div>
 
+<script>
+    window.addEventListener("load", () => {
+        document.querySelectorAll('.slide-in').forEach(el => el.style.opacity = 1);
+    });
+</script>
 
-
-
-<!--<div class="footer">-->
-
-<!--</div>-->
 <script src="../scripts/i18n.js" defer></script>
 </body>
 </html>

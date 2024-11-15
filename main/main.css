@@ -112,7 +112,21 @@ h1 {
 }
 
 .wrapper .quiz-welcome img{
-    max-width: 40%;
+    @media(max-width: 699px){
+        display: none;
+    }
+    @media (min-width: 700px){
+        width: 150px;
+    }
+    @media (min-width: 900px){
+        width: 250px;
+    }
+    @media (min-width: 1300px){
+        width: 350px;
+    }
+    @media (min-width: 1600px){
+        width: 400px;
+    }
 }
 
 #left-img{
@@ -129,7 +143,8 @@ h1 {
     border-color: #ff8644;
     border-radius: 50%;
     border-style: solid;
-    height: 50vh;
+    width: 10%;
+    max-width: 250px;
     box-shadow: 5px 0 5px white, -5px 0 5px white;
 }
 

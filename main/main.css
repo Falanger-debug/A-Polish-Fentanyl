@@ -54,7 +54,7 @@ body {
 }
 
 
-.about, .topics {
+.about {
     background-color: #0c4f7b;
     width: 100%;
     height: 100vh;
@@ -83,7 +83,7 @@ h1 {
     }
 }
 
-#center-welcome a, p {
+#center-welcome a{
     text-decoration: none;
     color: black;
     background-color: #ff8644;
@@ -92,16 +92,6 @@ h1 {
     font-weight: bold;
     border-radius: 55px;
     transition: background-color 0.3s, color 0.3s;
-    /*@media (max-width: 700px){*/
-    /*    font-size: 0.25em;*/
-    /*    width: min-content;*/
-    /*}*/
-    /*@media (max-width: 1000px){*/
-    /*    font-size: 0.5em;*/
-    /*}*/
-    /*@media (max-width: 1300px){*/
-    /*    font-size: 1em;*/
-    /*}*/
 }
 
 #left-img, #right-img{
@@ -142,13 +132,48 @@ h1 {
     z-index: 1;
 }
 
-#about-img, .right-topics img {
+h2{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: clamp(2em, 3.5vw, 6em);
+    margin: 5px 0 5px 0;
+}
+
+p {
+    text-decoration: none;
+    color: black;
+    background-color: #ff8644;
+    padding: 10px 20px;
+    font-size: clamp(0.2em, 1vw, 3em);
+    font-weight: bold;
+    border-radius: 55px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#about-img{
     border-color: #ff8644;
-    border-radius: 50%;
+    border-radius: 50px;
     border-style: solid;
-    width: 10%;
-    max-width: 250px;
     box-shadow: 5px 0 5px white, -5px 0 5px white;
+
+    @media(max-width: 699px){
+        display: none;
+    }
+    @media (min-width: 700px){
+        width: 130px;
+    }
+    @media (min-width: 900px){
+        width: 180px;
+    }
+    @media (min-width: 1300px){
+        width: 260px;
+    }
+    @media (min-width: 1400px){
+        width: 300px;
+    }
+    @media (min-width: 1600px){
+        width: 350px;
+    }
 }
 
 
@@ -161,6 +186,18 @@ h1 {
     max-width: 600px;
 }
 
+.topics{
+    background-color: #0c4f7b;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 0 50px 0 50px;
+}
 
 .footer{
     border-radius: 55px;
@@ -187,7 +224,7 @@ h1 {
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
-    font-size: clamp(1em, 2.5vw, 12em);
+    font-size: clamp(0.8em, 2vw, 12em);
 }
 
 .scroll-button.up{

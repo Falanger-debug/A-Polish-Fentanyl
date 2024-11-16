@@ -116,16 +116,19 @@ h1 {
         display: none;
     }
     @media (min-width: 700px){
-        width: 150px;
+        width: 130px;
     }
     @media (min-width: 900px){
-        width: 250px;
+        width: 180px;
     }
     @media (min-width: 1300px){
-        width: 350px;
+        width: 260px;
+    }
+    @media (min-width: 1400px){
+        width: 300px;
     }
     @media (min-width: 1600px){
-        width: 400px;
+        width: 350px;
     }
 }
 
@@ -165,27 +168,34 @@ h1 {
 }
 
 .scroll-button{
-    width: 3vw;
-    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 4vw;
+    height: 4vw;
+    max-height: 75px;
+    max-width: 75px;
     position: fixed;
-    right: 30px;
+    right: 2vw;
+    z-index: 100;
     background-color: #ff8644;
     color: white;
     border:none;
     border-radius: 30%;
-    padding: 15px;
+    padding: 3vh;
     cursor: pointer;
-    font-size: 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
+    font-size: clamp(1em, 2.5vw, 12em);
 }
 
 .scroll-button.up{
-    bottom: 130px;
+    bottom: 17vh;
 }
 
 .scroll-button.down{
-    bottom: 30px;
+    bottom: 5vh;
 }
 
 .scroll-button:hover {

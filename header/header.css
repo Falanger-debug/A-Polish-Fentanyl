@@ -1,21 +1,24 @@
 .header {
     background-color: #3d74c3;
-    padding: 30px 0;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
     border-bottom: 1px solid white;
+    .title{
+        text-wrap: nowrap;
+    }
 }
 
 .title {
     font-family: 'Copperplate Gothic Light', serif;
-    font-size: 3em;
+    font-size: clamp(0.5em, 5vw, 3em);
     font-weight: bold;
-    margin-left: 20px;
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
+    margin-right: 5px;
 }
 
 .title:hover {
@@ -24,17 +27,16 @@
 
 .nav_links {
     display: flex;
-    gap: 35px;
-    margin-right: 20px;
+    gap: 25px;
 }
 
 .nav_links a {
     text-decoration: none;
     color: white;
-    font-size: 1.75em;
+    font-size: clamp(0.1em, 1.5vw, 2em);
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
     transition: color 0.3s ease;
 }
 
@@ -43,10 +45,10 @@
 }
 
 .nav_links i {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 878px) {
     .nav_links a span {
         display: none;
     }

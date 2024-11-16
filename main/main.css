@@ -9,11 +9,12 @@ html{
 }
 
 body {
-    background-image: url('../images/gradient_background.png');
+    background-image: url('../images/gradient_background_1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
 }
@@ -66,7 +67,7 @@ h2{
 p {
     color: black;
     background-color: #ff8644;
-    font-size: clamp(0.2em, 1vw, 3em);
+    font-size: clamp(0.2em, 0.9vw, 3em);
     font-weight: bold;
     text-decoration: none;
     padding: 10px 20px;
@@ -139,7 +140,7 @@ p {
     color: #ffffff;
     background-color: #0c4f7b;
     font-family: Arial, sans-serif;
-    width: 85%;
+    width: 75%;
     justify-content : center;
     align-items: center;
     padding: 150px 50px 20px 50px;

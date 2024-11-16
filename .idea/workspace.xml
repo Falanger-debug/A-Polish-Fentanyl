@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbfd7d9b-09e1-4199-bdd8-2416b3c95939" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/footerLoader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quiz/list-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/list-style.css" afterDir="false" />
@@ -109,7 +112,7 @@
       <workItem from="1731486787533" duration="350000" />
       <workItem from="1731583466055" duration="2690000" />
       <workItem from="1731657108522" duration="8535000" />
-      <workItem from="1731748953609" duration="14755000" />
+      <workItem from="1731748953609" duration="17133000" />
     </task>
     <servers />
   </component>

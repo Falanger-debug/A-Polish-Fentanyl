@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbfd7d9b-09e1-4199-bdd8-2416b3c95939" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/i18n/en_questions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/pl_questions.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/quiz_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/quiz_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/headerLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/headerLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/carcinogenicity.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/carcinogenicity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,7 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>

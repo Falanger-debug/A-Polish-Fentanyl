@@ -19,5 +19,18 @@
   "topics_i9": "Upward Trend of Alcohol Consumption",
   "description": "description",
   "question_1_?": "What type of drug is alcohol",
-  "topics_i2_title2": "dupa"
+  "topics_i2_title2": "dupa",
+
+  "question_1": "What is the capital of France?",
+  "question_1_choice_1": "Berlin",
+  "question_1_choice_2": "Madrid",
+  "question_1_choice_3": "Paris",
+  "question_1_choice_4": "Rome",
+  "question_1_explanation": "Paris is the capital of France.",
+  "question_2": "Which planet is known as the Red Planet?",
+  "question_2_choice_1": "Earth",
+  "question_2_choice_2": "Mars",
+  "question_2_choice_3": "Jupiter",
+  "question_2_choice_4": "Venus",
+  "question_2_explanation": "Mars is known as the Red Planet."
 }

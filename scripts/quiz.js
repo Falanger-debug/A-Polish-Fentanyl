@@ -3,8 +3,11 @@ let currentQuestionIndex = 0;
 let score = 0;
 let selectedAnswerIndex = null;
 
-document.addEventListener("DOMContentLoaded", () => {
-    fetch("../questions.json")
+document.addEventListener("DOMContentLoaded", async () => {
+    await initI18n();
+    let currentLang = localStorage.getItem('lang') || 'en';
+    console.log(currentLang);
+    fetch(`../i18n/${currentLang}_questions.json`)
         .then(response => response.json())
         .then(data => {
             questions = data;
@@ -23,7 +26,7 @@ function showQuestion() {
         questionContainer.classList.add('fade-in');
     } else {
         console.error("Element 'question-container' not found");
-        return; // Wychodzimy z funkcji, jeśli nie znaleziono elementu
+        return;
     }
 
     document.getElementById("result-container").classList.remove("active");
@@ -66,7 +69,6 @@ function selectAnswer(selectedIndex) {
 
     selectedAnswerIndex = selectedIndex;
 
-    // Pokaż okienko z wyjaśnieniem zaraz po wyborze odpowiedzi
     const correctIndex = "ABCD".indexOf(currentQuestion.correctAnswer);
     const isCorrect = selectedIndex === correctIndex;
 

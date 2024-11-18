@@ -13,9 +13,23 @@
       <i class="fa-solid fa-book"></i>
       <span data-i18n="topics">Topics</span>
     </a>
-    <a href="../main/main.html#language" class="language-switch">
+    <a href = "#" class="language-switch">
       <i class="fa-solid fa-globe"></i>
       <span data-i18n="language">Polish</span>
     </a>
   </div>
 </div>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const languageSwitch = document.querySelector('.language-switch');
+
+    if(languageSwitch){
+      const currentPath = window.location.pathname;
+      languageSwitch.setAttribute('href', `${currentPath}#language`);
+    } else{
+      console.error('Error .language-switch not found');
+    }
+  });
+</script>

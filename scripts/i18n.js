@@ -33,6 +33,13 @@ async function changeLanguage(lang) {
 
     localStorage.setItem('lang', lang);
     currentLang = lang;
+
+    const path = window.location.pathname
+    if (path.includes("quiz_1.html")){
+        await loadQuestions();
+        showQuestion();
+    }
+
 }
 
 

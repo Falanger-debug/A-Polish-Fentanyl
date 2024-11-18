@@ -5,16 +5,20 @@ let selectedAnswerIndex = null;
 
 document.addEventListener("DOMContentLoaded", async () => {
     await initI18n();
+    await loadQuestions()
+    showQuestion()
+});
+
+function loadQuestions() {
     let currentLang = localStorage.getItem('lang') || 'en';
-    console.log(currentLang);
-    fetch(`../i18n/${currentLang}_questions.json`)
+    console.log(`Loading questions for language: ${currentLang}`);
+    return fetch(`../i18n/${currentLang}_questions.json`)
         .then(response => response.json())
         .then(data => {
             questions = data;
-            showQuestion();
         })
         .catch(error => console.error("Error loading questions:", error));
-});
+}
 
 function showQuestion() {
     const questionContainer = document.getElementById('question-container');
@@ -88,7 +92,7 @@ function showExplanation(isCorrect, explanation) {
         ? "CORRECT!\n" + explanation
         : "INCORRECT!\n" + explanation;
 
-    explanationContainer.style.display = "block"; // Upewniamy się, że element jest widoczny
+    explanationContainer.style.display = "block";
     explanationContainer.classList.remove("fade-out");
     explanationContainer.classList.add("fade-in");
 }

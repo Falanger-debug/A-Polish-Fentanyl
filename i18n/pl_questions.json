@@ -1,38 +1,38 @@
 [
   {
     "question": "Jakiego rodzaju narkotykiem jest alkohol?",
-    "choices": ["Stimulant", "Opioid", "Depressant", "Hallucinogen"],
+    "choices": ["Stymulantem", "Opioidem", "Depresantem", "Halucynogenem"],
     "correctAnswer": "C",
-    "explanation": "Alcohol is classified as a depressant because it slows down the central nervous system. It can make a person feel relaxed, reduce inhibitions, and impair coordination and reaction time. In large amounts, alcohol can cause drowsiness, confusion, and even loss of consciousness. Unlike stimulants, which increase brain activity, depressants reduce the overall functioning of the brain."
+    "explanation": "Alkohol jest klasyfikowany jako depresant, ponieważ spowalnia centralny układ nerwowy. Może sprawiać, że osoba czuje się zrelaksowana, zmniejsza zahamowania oraz upośledza koordynację i czas reakcji. W dużych ilościach alkohol może powodować senność, zamieszanie, a nawet utratę świadomości. W przeciwieństwie do stymulantów, które zwiększają aktywność mózgu, depresanty zmniejszają ogólne funkcjonowanie mózgu."
   },
   {
-    "question": "Worldwide, how many deaths were caused by alcohol consumption in 2019?",
+    "question": "Ile zgonów na całym świecie spowodowało spożycie alkoholu w 2019 roku?",
     "choices": ["600,000", "2,600,000", "1,300,000", "4,000,000"],
     "correctAnswer": "B",
-    "explanation": "In 2019, alcohol was responsible for approximately 2.6 million deaths worldwide. This is a staggering number, which highlights the dangers of excessive alcohol consumption. To put it in perspective, COVID-19 caused around 3 million deaths globally in 2020, which is comparable, but alcohol-related deaths have been consistently high for many years. The vast number of alcohol-related fatalities includes deaths from liver disease, cancers, car accidents, and violence."
+    "explanation": "W 2019 roku alkohol był odpowiedzialny za około 2,6 miliona zgonów na całym świecie. To zatrważająca liczba, która podkreśla niebezpieczeństwa nadmiernego spożywania alkoholu. Dla porównania, COVID-19 spowodował około 3 miliony zgonów na całym świecie w 2020 roku, co jest porównywalne, ale zgony związane z alkoholem były wysokie przez wiele lat. Duża liczba zgonów związanych z alkoholem obejmuje choroby wątroby, nowotwory, wypadki samochodowe oraz przemoc."
   },
   {
-    "question": "How long after quitting alcohol does brain damage occur?",
-    "choices": ["2 weeks", "2 days", "6 weeks", "7 days"],
+    "question": "Jak długo po zaprzestaniu picia alkoholu występuje uszkodzenie mózgu?",
+    "choices": ["2 tygodnie", "2 dni", "6 tygodni", "7 dni"],
     "correctAnswer": "C",
-    "explanation": "Brain damage caused by alcohol consumption can take a toll over time, and the first signs of damage typically begin to show after approximately 6 weeks of continuous drinking. The alcohol metabolite acetaldehyde can damage the myelin sheath, which protects the brain's nerve cells. After quitting alcohol, it takes time to repair this damage, and resuming alcohol consumption before full recovery can cause further harm. During the recovery phase, it is essential to avoid alcohol to allow the brain to heal properly."
+    "explanation": "Uszkodzenie mózgu spowodowane spożywaniem alkoholu może postępować w czasie, a pierwsze oznaki uszkodzenia zazwyczaj pojawiają się po około 6 tygodniach ciągłego picia. Metabolit alkoholu, aldehyd octowy, może uszkodzić osłonkę mielinową, która chroni komórki nerwowe w mózgu. Po zaprzestaniu picia alkoholu potrzeba czasu, aby naprawić to uszkodzenie, a wznowienie picia alkoholu przed pełnym wyzdrowieniem może spowodować dalsze uszkodzenia. Podczas fazy rekonwalescencji ważne jest unikanie alkoholu, aby umożliwić mózgowi właściwe gojenie."
   },
   {
-    "question": "Is drinking wine good for health?",
-    "choices": ["It's complicated", "Yes, but with certain circumstances", "Absolutely no"],
+    "question": "Czy picie wina jest dobre dla zdrowia?",
+    "choices": ["To skomplikowane", "Tak, ale w pewnych okolicznościach", "Absolutnie nie"],
     "correctAnswer": "A",
-    "explanation": "While moderate wine consumption, particularly red wine, has been associated with some potential health benefits, such as supporting heart health due to antioxidants like resveratrol, the overall effects of alcohol are complex. In countries like France, where wine consumption is common, there is a high incidence of liver cirrhosis and liver cancer related to alcohol consumption. The cardiovascular benefits may not outweigh the risks associated with long-term alcohol use, which can lead to liver damage, cancers, and other health issues."
+    "explanation": "Chociaż umiarkowane spożywanie wina, szczególnie czerwonego wina, jest związane z potencjalnymi korzyściami zdrowotnymi, takimi jak wspomaganie zdrowia serca dzięki antyoksydantom takim jak resweratrol, ogólne skutki alkoholu są złożone. W krajach takich jak Francja, gdzie spożywanie wina jest powszechne, występuje wysoka częstość marskości wątroby i raka wątroby związanych z konsumpcją alkoholu. Korzyści dla układu sercowo-naczyniowego mogą nie przeważać nad ryzykami związanymi z długoterminowym używaniem alkoholu, które może prowadzić do uszkodzenia wątroby, nowotworów i innych problemów zdrowotnych."
   },
   {
-    "question": "Do state revenues from alcohol excise tax in Poland fully compensate for social and material losses?",
-    "choices": ["Yes, it is profitable for Polish country", "Almost compensate", "There is a huge financial loss"],
+    "question": "Czy dochody z podatku akcyzowego od alkoholu w Polsce w pełni rekompensują straty społeczne i materialne?",
+    "choices": ["Tak, jest to opłacalne dla Polski", "Prawie rekompensują", "Jest ogromna strata finansowa"],
     "correctAnswer": "C",
-    "explanation": "The revenue from alcohol excise taxes in Poland, which amounted to PLN 13.4 billion in 2020, does not come close to compensating the social and material costs associated with alcohol use. The social costs, including healthcare expenses, lost productivity, and the costs of treating alcohol addiction, exceed the income generated from the excise tax by a significant margin. In fact, the difference between these costs and excise tax revenue amounts to over PLN 79.9 billion annually, which represents about 3.45% of Poland's GDP in 2020. This data confirms Ledermann's hypothesis, which suggests that as alcohol consumption increases, the number of people suffering from alcohol-related harm grows exponentially, making the net economic impact negative. The costs of managing alcohol-related issues far surpass the tax revenue."
+    "explanation": "Dochody z podatku akcyzowego od alkoholu w Polsce, które w 2020 roku wyniosły 13,4 miliarda PLN, nie zbliżają się do rekompensaty za koszty społeczne i materialne związane z używaniem alkoholu. Koszty społeczne, w tym wydatki na opiekę zdrowotną, utracona produktywność i koszty leczenia uzależnienia od alkoholu, przewyższają dochody z podatku akcyzowego o znaczną kwotę. Różnica między tymi kosztami a dochodami z akcyzy wynosi ponad 79,9 miliarda PLN rocznie, co stanowi około 3,45% PKB Polski w 2020 roku. Te dane potwierdzają hipotezę Ledermanna, która sugeruje, że w miarę wzrostu konsumpcji alkoholu liczba osób cierpiących z powodu szkód związanych z alkoholem rośnie wykładniczo, co powoduje, że netto wpływ ekonomiczny jest negatywny. Koszty zarządzania problemami związanymi z alkoholem znacznie przewyższają dochody z podatków."
   },
   {
-    "question": "Can the father of the child be held liable for FAS (fetal alcohol syndrome) because he drank occasionally during sex with the mother of the child?",
-    "choices": ["Yes", "No"],
+    "question": "Czy ojciec dziecka może ponieść odpowiedzialność za FAS (wrodzony zespół alkoholowy) z powodu sporadycznego picia podczas stosunku z matką dziecka?",
+    "choices": ["Tak", "Nie"],
     "correctAnswer": "A",
-    "explanation": "Yes, the father can be held liable for FAS (Fetal Alcohol Syndrome) if he drank alcohol before conception, as recent research has shown that alcohol consumption by fathers can affect the development of the child. A study published in April 2023 found that exposure to alcohol by fathers before conception can cause significant defects in the child’s brain and facial development, which are characteristics of FAS. This study, led by Dr. Michael Golding at Texas A&M University, challenges the previous assumption that only the mother’s alcohol consumption is linked to FAS. The research demonstrated that the alcohol exposure through the father’s sperm also plays a significant role in the child's development. This highlights that even occasional drinking by the father before conception can lead to irreversible damage to the child’s health."
+    "explanation": "Tak, ojciec może ponieść odpowiedzialność za FAS (wrodzony zespół alkoholowy), jeśli pił alkohol przed poczęciem, ponieważ najnowsze badania wykazały, że picie alkoholu przez ojca może wpływać na rozwój dziecka. Badanie opublikowane w kwietniu 2023 roku wykazało, że ekspozycja na alkohol ze strony ojca przed poczęciem może powodować poważne wady w rozwoju mózgu i twarzy dziecka, które są charakterystyczne dla FAS. Badanie to, prowadzone przez dr Michaela Goldinga z Uniwersytetu Texas A&M, podważa wcześniejsze założenie, że tylko picie alkoholu przez matkę jest związane z FAS. Badanie wykazało, że ekspozycja na alkohol przez plemniki ojca również odgrywa istotną rolę w rozwoju dziecka. To pokazuje, że nawet sporadyczne picie przez ojca przed poczęciem może prowadzić do nieodwracalnych uszkodzeń zdrowia dziecka."
   }
 ]

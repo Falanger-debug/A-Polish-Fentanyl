@@ -18,19 +18,5 @@
   "topics_i8": "Akcyza i Straty Ekonomiczne",
   "topics_i9": "Tendencja Wzrostowa Konsumpcji Alkoholu",
   "description": "Opis",
-  "question_1_?": "Jakim rodzajem narkotyku jest alkohol?",
-  "topics_i2_title2": "dupa123",
-
-  "question_1": "Jaka jest stolica Francji?",
-  "question_1_choice_1": "Berlin",
-  "question_1_choice_2": "Madryt",
-  "question_1_choice_3": "Paryż",
-  "question_1_choice_4": "Rzym",
-  "question_1_explanation": "Paryż jest stolicą Francji.",
-  "question_2": "Która planeta jest znana jako Czerwona Planeta?",
-  "question_2_choice_1": "Ziemia",
-  "question_2_choice_2": "Mars",
-  "question_2_choice_3": "Jowisz",
-  "question_2_choice_4": "Wenus",
-  "question_2_explanation": "Mars jest znany jako Czerwona Planeta."
+  "continue": "Dalej"
 }

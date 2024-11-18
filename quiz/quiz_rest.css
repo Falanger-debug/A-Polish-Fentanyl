@@ -95,11 +95,12 @@ body {
 
 .explanation-container {
     opacity: 0;
-    display: none;
-    /*background-image: url("../images/main_background.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*background-attachment: fixed;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 65%;
+    margin-left: 17.5%;
+    text-align: center;
     color: white;
     font-size: 1em;
     padding: 15px;

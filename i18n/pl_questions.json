@@ -1,38 +1,91 @@
 [
   {
+    "question": "Czy alkohol jest narkotykiem?",
+    "choices": [
+      "Tak",
+      "Nie"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tak, alkohol jest klasyfikowany jako narkotyk oraz substancja psychoaktywna, która wpływa na funkcje poznawcze, emocje i percepcję. Jednymi z powodów, dla których niektórzy błędnie nie uważają alkoholu za narkotyk, są: legalność substancji, rozpowszechnienie spożycia i fraza \"narkotyki i alkohol\", która sugeruje, że alkohol nie jest narkotykiem."
+  },
+  {
     "question": "Jakiego rodzaju narkotykiem jest alkohol?",
-    "choices": ["Stymulantem", "Opioidem", "Depresantem", "Halucynogenem"],
+    "choices": [
+      "Stymulantem",
+      "Opioidem",
+      "Depresantem",
+      "Halucynogenem"
+    ],
     "correctAnswer": "C",
-    "explanation": "Alkohol jest klasyfikowany jako depresant, ponieważ spowalnia centralny układ nerwowy. Może sprawiać, że osoba czuje się zrelaksowana, zmniejsza zahamowania oraz upośledza koordynację i czas reakcji. W dużych ilościach alkohol może powodować senność, zamieszanie, a nawet utratę świadomości. W przeciwieństwie do stymulantów, które zwiększają aktywność mózgu, depresanty zmniejszają ogólne funkcjonowanie mózgu."
+    "explanation": "Alkohol jest depresantem, ponieważ wpływa na centralny układ nerwowy, spowalniając jego działanie. Jego metabolity oddziałują na mózg, zmieniając aktywność neuroprzekaźników. W skrócie, alkohol działa depresyjnie na układ nerwowy, co oznacza, że zmniejsza się zdolność mózgu do szybkiego i efektywnego przetwarzania informacji oraz spowalnia reakcje organizmu."
   },
   {
     "question": "Ile zgonów na całym świecie spowodowało spożycie alkoholu w 2019 roku?",
-    "choices": ["600,000", "2,600,000", "1,300,000", "4,000,000"],
+    "choices": [
+      "600,000",
+      "2,600,000",
+      "1,300,000",
+      "4,000,000"
+    ],
     "correctAnswer": "B",
-    "explanation": "W 2019 roku alkohol był odpowiedzialny za około 2,6 miliona zgonów na całym świecie. To zatrważająca liczba, która podkreśla niebezpieczeństwa nadmiernego spożywania alkoholu. Dla porównania, COVID-19 spowodował około 3 miliony zgonów na całym świecie w 2020 roku, co jest porównywalne, ale zgony związane z alkoholem były wysokie przez wiele lat. Duża liczba zgonów związanych z alkoholem obejmuje choroby wątroby, nowotwory, wypadki samochodowe oraz przemoc."
-  },
-  {
-    "question": "Jak długo po zaprzestaniu picia alkoholu występuje uszkodzenie mózgu?",
-    "choices": ["2 tygodnie", "2 dni", "6 tygodni", "7 dni"],
-    "correctAnswer": "C",
-    "explanation": "Uszkodzenie mózgu spowodowane spożywaniem alkoholu może postępować w czasie, a pierwsze oznaki uszkodzenia zazwyczaj pojawiają się po około 6 tygodniach ciągłego picia. Metabolit alkoholu, aldehyd octowy, może uszkodzić osłonkę mielinową, która chroni komórki nerwowe w mózgu. Po zaprzestaniu picia alkoholu potrzeba czasu, aby naprawić to uszkodzenie, a wznowienie picia alkoholu przed pełnym wyzdrowieniem może spowodować dalsze uszkodzenia. Podczas fazy rekonwalescencji ważne jest unikanie alkoholu, aby umożliwić mózgowi właściwe gojenie."
-  },
-  {
-    "question": "Czy picie wina jest dobre dla zdrowia?",
-    "choices": ["To skomplikowane", "Tak, ale w pewnych okolicznościach", "Absolutnie nie"],
-    "correctAnswer": "A",
-    "explanation": "Chociaż umiarkowane spożywanie wina, szczególnie czerwonego wina, jest związane z potencjalnymi korzyściami zdrowotnymi, takimi jak wspomaganie zdrowia serca dzięki antyoksydantom takim jak resweratrol, ogólne skutki alkoholu są złożone. W krajach takich jak Francja, gdzie spożywanie wina jest powszechne, występuje wysoka częstość marskości wątroby i raka wątroby związanych z konsumpcją alkoholu. Korzyści dla układu sercowo-naczyniowego mogą nie przeważać nad ryzykami związanymi z długoterminowym używaniem alkoholu, które może prowadzić do uszkodzenia wątroby, nowotworów i innych problemów zdrowotnych."
+    "explanation": "Alkohol był odpowiedzialny za około 2,6 miliona zgonów na całym świecie w 2019 roku. Dla porównania, COVID-19 spowodował około 3 miliony zgonów na całym świecie w 2020 roku. Aby zredukować tę śmiertelność, ludzie zostali zmuszeni do pozostania w domach i noszenia maseczek. Dlaczego więc nikt nie dostrzega problemu corocznych strat ludzkich związanych z alkoholem?"
   },
   {
     "question": "Czy dochody z podatku akcyzowego od alkoholu w Polsce w pełni rekompensują straty społeczne i materialne?",
-    "choices": ["Tak, jest to opłacalne dla Polski", "Prawie rekompensują", "Jest ogromna strata finansowa"],
-    "correctAnswer": "C",
-    "explanation": "Dochody z podatku akcyzowego od alkoholu w Polsce, które w 2020 roku wyniosły 13,4 miliarda PLN, nie zbliżają się do rekompensaty za koszty społeczne i materialne związane z używaniem alkoholu. Koszty społeczne, w tym wydatki na opiekę zdrowotną, utracona produktywność i koszty leczenia uzależnienia od alkoholu, przewyższają dochody z podatku akcyzowego o znaczną kwotę. Różnica między tymi kosztami a dochodami z akcyzy wynosi ponad 79,9 miliarda PLN rocznie, co stanowi około 3,45% PKB Polski w 2020 roku. Te dane potwierdzają hipotezę Ledermanna, która sugeruje, że w miarę wzrostu konsumpcji alkoholu liczba osób cierpiących z powodu szkód związanych z alkoholem rośnie wykładniczo, co powoduje, że netto wpływ ekonomiczny jest negatywny. Koszty zarządzania problemami związanymi z alkoholem znacznie przewyższają dochody z podatków."
+    "choices": [
+      "Tak",
+      "Nie"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dochody z podatku akcyzowego od alkoholu wyniosły w 2020 roku 13,4 miliarda złotych. Jednak nie zrekompensowały one kosztów społecznych i materialnych, które sięgnęły 79,9 miliarda złotych, co stanowiło wówczas 3,45% PKB Polski."
   },
   {
-    "question": "Czy ojciec dziecka może ponieść odpowiedzialność za FAS (wrodzony zespół alkoholowy) z powodu sporadycznego picia podczas stosunku z matką dziecka?",
-    "choices": ["Tak", "Nie"],
+    "question": "Jak długo po zaprzestaniu picia alkoholu występuje uszkadzanie mózgu?",
+    "choices": [
+      "2 tygodnie",
+      "2 dni",
+      "6 tygodni",
+      "7 dni"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Przez 6 tygodni po spożyciu alkoholu dochodzi do ciągłego uszkadzania mózgu. Odpowiedzialny za to jest nie tyle sam alkohol, co jeden z jego metabolitów. Aldehyd kwasu octowego powoduje uszkodzenie mieliny, która pełni funkcję ochronną dla połączeń nerwowych w ludzkim mózgu. Dzięki mielinie impulsy nerwowe mogą przemieszczać się szybciej, co umożliwia prawidłowe funkcjonowanie mózgu, w tym myślenie, zapamiętywanie i koordynację ruchową. Jej zniszczenie prowadzi do pogorszenia zdolności poznawczych i zaburzeń neurologicznych."
+  },
+  {
+    "question": "Czy picie wina jest dobre dla zdrowia?",
+    "choices": [
+      "Tak",
+      "To skomplikowane",
+      "Nie"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Wiele badań wskazuje na potencjalne korzyści zdrowotne płynące z umiarkowanego spożycia czerwonego wina. Wynika to głównie z antyoksydantów zawartych w tym trunku, takich jak resweratrol. Niemniej jednak, nie można jednoznacznie stwierdzić, że czerwone wino jest prozdrowotne. Okazuje się, że w krajach takich jak Francja, gdzie spożywanie wina jest powszechne, występuje bardzo wysoka częstość marskości wątroby i raka wątroby związanych z konsumpcją etanolu."
+  },
+  {
+    "question": "Czy ojciec dziecka może być odpowiedzialnym za FAS(wrodzony zespół alkoholowy)?",
+    "choices": [
+      "Tak",
+      "Nie"
+    ],
     "correctAnswer": "A",
-    "explanation": "Tak, ojciec może ponieść odpowiedzialność za FAS (wrodzony zespół alkoholowy), jeśli pił alkohol przed poczęciem, ponieważ najnowsze badania wykazały, że picie alkoholu przez ojca może wpływać na rozwój dziecka. Badanie opublikowane w kwietniu 2023 roku wykazało, że ekspozycja na alkohol ze strony ojca przed poczęciem może powodować poważne wady w rozwoju mózgu i twarzy dziecka, które są charakterystyczne dla FAS. Badanie to, prowadzone przez dr Michaela Goldinga z Uniwersytetu Texas A&M, podważa wcześniejsze założenie, że tylko picie alkoholu przez matkę jest związane z FAS. Badanie wykazało, że ekspozycja na alkohol przez plemniki ojca również odgrywa istotną rolę w rozwoju dziecka. To pokazuje, że nawet sporadyczne picie przez ojca przed poczęciem może prowadzić do nieodwracalnych uszkodzeń zdrowia dziecka."
+    "explanation": "Ekspozycja na alkohol ze strony ojca przed poczęciem może powodować poważne wady w rozwoju mózgu i twarzy dziecka, które są charakterystyczne dla FAS. Badanie opublikowane w 2023 roku podważa wcześniejsze założenie, że tylko picie alkoholu przez matkę jest związane z FAS. Wyniki tego badania wskazują, że nawet sporadyczne picie przez ojca może prowadzić do nieodwracalnych uszkodzeń zdrowia dziecka."
+  },
+  {
+    "question": "Czy alkohol jest rakotwórczy?",
+    "choices": [
+      "Tak",
+      "Nie"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tak, alkohol jest uznawany za substancję rakotwórczą. Spożywanie alkoholu wiąże się z zwiększonym ryzykiem rozwoju różnych typów nowotworów, w tym raka wątroby, jamy ustnej, gardła, krtani, przełyku, jelita grubego oraz piersi. Alkohol działa rakotwórczo poprzez różne mechanizmy, takie jak uszkodzenie DNA, stres oksydacyjny oraz wpływ na metabolizm hormonów, szczególnie estrogenów u kobiet."
+  },
+  {
+    "question": "Jaka dawka alkoholu jest bezpieczna dawka do spożycia?",
+    "choices": [
+      "10-15 gramów dziennie",
+      "20-30 gramów dziennie",
+      "Nie istnieje bezpieczna dawka alkoholu"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Nie istnieje bezpieczna dawka alkoholu, co zostało jasno wykazane w badaniu \"Alcohol use and burden for 195 countries and territories, 1990-2016\". Ryzyko wzrasta już od najniższych dawek alkoholu."
   }
 ]

@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="bbfd7d9b-09e1-4199-bdd8-2416b3c95939" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/en_questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en_questions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i18n/pl_questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl_questions.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/quiz_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/quiz_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz_rest.css" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/quiz_rest.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +52,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.carcinogenicity.html.executor": "Run",
+    "JavaScript Debug.footer.html.executor": "Run",
     "JavaScript Debug.header.html.executor": "Run",
     "JavaScript Debug.main.html.executor": "Run",
     "JavaScript Debug.main_site.html.executor": "Run",
@@ -58,7 +63,7 @@
     "Node.js.headerLoader.js.executor": "Run",
     "Node.js.quiz.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "working-on-translations",
+    "git-widget-placeholder": "merits__of__the__website",
     "last_opened_file_path": "C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",

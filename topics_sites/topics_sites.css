@@ -1,57 +1,108 @@
 body{
-    background: #0c4f7b;
-    padding-top: 100px;
+
 }
 
-#header{
-    position: fixed;
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.topic-name{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-name h1 {
+    position: relative;
+    color: #222;
+}
+
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    color: #fff;
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #fff;
+    animation: animate 8s linear 1;
+    animation-fill-mode: forwards;
+    filter: drop-shadow(0 0 20px #fff);
+}
+
+@keyframes animate {
+    0%{
+        width: 0;
+    }
+    70%, 90%, 100%{
+        width: 100%;
+    }
+}
+
+section{
+    position:relative;
+    width: 75%;
+    background-color: #ff8644;
+    border-radius: 50px;
+    padding: 50px 0 50px 0;
+    margin-top: 85px;
+}
+
+.circle{
+    position: relative;
+    overflow: hidden;
+}
+
+.circle img{
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    height: 100%;
+    object-fit: cover;
 }
 
-
-h1{
-    color: #ff8644;
-    font-size: 50px;
-    text-align: center;
-    text-transform: uppercase;
+.circle.circle-1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle();
+}
+.circle.circle-2{
+    width: 5vw;
+    height: 5vw;
+    float: right;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle();
 }
 
-.container{
-    /*background-image: url("../images/topics_div_background.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    background-color: #d1e0f3;
-    max-width: 80vw;
-    margin: auto auto 50px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    border-radius: 30px;
-    border: 5px solid black;
-    font-family: sans-serif;
-    padding: 15px;
-    align-items: flex-start;
-
-    h2{
-        /*background: white;*/
-        align-items: center;
-        font-size: 50px;
-        color:#3d74c3;
-        display: inline-flex;
-        padding: 10px;
+@media(max-width: 800px) {
+    .circle {
+        display: none;
     }
+}
 
-    p{
-        font-size: 30px;
-        color: black;
-        text-align: justify;
+section h2{
+    margin-bottom: 10px;
+    font-size: 2em;
+    width: auto;
+    color: black;
+}
+section p{
+    color: black;
+    font-size: 1em;
+    background-color: transparent;
+}
 
-    }
-
-
-
+.papers{
+    width: 75%;
+    margin: 85px 0 100px 0;
 }

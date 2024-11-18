@@ -1,10 +1,8 @@
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         const response = await fetch('../header/header.html');
-        const headerContent = await response.text();
-        document.getElementById('header').innerHTML = headerContent;
+        document.getElementById('header').innerHTML = await response.text();
 
-        // Dopiero po załadowaniu nagłówka, możemy uruchomić i18n.js
         await initI18n();
     } catch (error) {
         console.error('Error loading header:', error);

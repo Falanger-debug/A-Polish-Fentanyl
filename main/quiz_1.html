@@ -6,10 +6,11 @@
 
     <script src="../scripts/headerLoader.js"></script>
     <script src="https://kit.fontawesome.com/d8e23ce567.js" crossorigin="anonymous"></script>
+    <script src="../scripts/i18n.js" defer></script>
+    <script src="../scripts/quiz.js"></script>
 
     <link rel="icon" type="image/x-icon" href="../images/sober_choice_logo.ico">
 
-    <link rel="stylesheet" href="main_site_styles.css">
     <link rel="stylesheet" href="../header/header.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="../quiz/quiz_rest.css">
@@ -20,11 +21,11 @@
 <div class="container">
     <div class="quiz-container">
         <div id="question-container" class="question-container">
-            <h2 id="question">Question will appear here</h2>
+            <h2 id="question" >Question will appear here</h2>
             <div id="choices" class="choices"></div>
 
             <div id="explanation-container" class="explanation-container">
-                <p id="explanation-text">Explanation will appear here</p>
+                <p id="explanation-text" >Explanation will appear here</p>
                 <button id="continue-button" onclick="nextQuestion()">Continue</button>
             </div>
         </div>
@@ -37,6 +38,5 @@
 </div>
 
 
-<script src="../scripts/quiz.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
   "sources": "Źródła",
   "language": "English",
   "aboutH1": "Cel Tej Strony",
-  "aboutP": "Ta strona internetowa została stworzona w celu zwiększenia świadomości społecznej na temat alkoholu. Moim głównym celem są okazjonalni pijacy. Wiele osób nie jest w pełni świadomych skutków spożywania etanolu, nawet w małych ilościach, od czasu do czasu. Uwaga: Może nie chcesz się z tym zapoznać. Wiedza zgromadzona na tej stronie jest trudna do zaakceptowania dla wielu ludzi.",
+  "aboutP": "Strona internetowa została stworzona w celu podniesienia świadomości społeczeństwa na temat produktów alkoholowych. <br>Wiele osób nie posiada pełnych informacji lub opiera swoją wiedzę na przestarzałych badaniach. Moim celem nie jest nakłanianie nikogo do rezygnacji z konsumpcji alkoholu. Chciałbym jednak, aby każda decyzja była podejmowana świadomie, z pełnym zrozumieniem potencjalnych zagrożeń, które mogą się z nią wiązać.",
   "topicsH1": "Tematy dyskusji",
   "topics_i1": "Neurotoksyczność",
   "topics_i2": "Rakotwórczość",
@@ -17,5 +17,20 @@
   "topics_i7": "Wino i Resveratrol",
   "topics_i8": "Akcyza i Straty Ekonomiczne",
   "topics_i9": "Tendencja Wzrostowa Konsumpcji Alkoholu",
-  "description": "Opis"
+  "description": "Opis",
+  "question_1_?": "Jakim rodzajem narkotyku jest alkohol?",
+  "topics_i2_title2": "dupa123",
+
+  "question_1": "Jaka jest stolica Francji?",
+  "question_1_choice_1": "Berlin",
+  "question_1_choice_2": "Madryt",
+  "question_1_choice_3": "Paryż",
+  "question_1_choice_4": "Rzym",
+  "question_1_explanation": "Paryż jest stolicą Francji.",
+  "question_2": "Która planeta jest znana jako Czerwona Planeta?",
+  "question_2_choice_1": "Ziemia",
+  "question_2_choice_2": "Mars",
+  "question_2_choice_3": "Jowisz",
+  "question_2_choice_4": "Wenus",
+  "question_2_explanation": "Mars jest znany jako Czerwona Planeta."
 }

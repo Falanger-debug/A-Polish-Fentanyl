@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbfd7d9b-09e1-4199-bdd8-2416b3c95939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/footerLoader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/list-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/list-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/pl_questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl_questions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/quiz_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/quiz_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/quiz.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,7 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -45,32 +44,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.carcinogenicity.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.header.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.main.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.main_site.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz_1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz_2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz_main.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.headerLoader.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.quiz.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;resizing-feature&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.carcinogenicity.html.executor": "Run",
+    "JavaScript Debug.header.html.executor": "Run",
+    "JavaScript Debug.main.html.executor": "Run",
+    "JavaScript Debug.main_site.html.executor": "Run",
+    "JavaScript Debug.quiz.html.executor": "Run",
+    "JavaScript Debug.quiz_1.html.executor": "Run",
+    "JavaScript Debug.quiz_2.html.executor": "Run",
+    "JavaScript Debug.quiz_main.html.executor": "Run",
+    "Node.js.headerLoader.js.executor": "Run",
+    "Node.js.quiz.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "working-on-translations",
+    "last_opened_file_path": "C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\images" />
@@ -112,7 +111,9 @@
       <workItem from="1731486787533" duration="350000" />
       <workItem from="1731583466055" duration="2690000" />
       <workItem from="1731657108522" duration="8535000" />
-      <workItem from="1731748953609" duration="17133000" />
+      <workItem from="1731748953609" duration="24732000" />
+      <workItem from="1731789924820" duration="48000" />
+      <workItem from="1731925190349" duration="839000" />
     </task>
     <servers />
   </component>

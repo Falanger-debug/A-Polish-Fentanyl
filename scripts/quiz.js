@@ -3,15 +3,22 @@ let currentQuestionIndex = 0;
 let score = 0;
 let selectedAnswerIndex = null;
 
-document.addEventListener("DOMContentLoaded", () => {
-    fetch("../questions.json")
+document.addEventListener("DOMContentLoaded", async () => {
+    await initI18n();
+    await loadQuestions()
+    showQuestion()
+});
+
+function loadQuestions() {
+    let currentLang = localStorage.getItem('lang') || 'en';
+    console.log(`Loading questions for language: ${currentLang}`);
+    return fetch(`../i18n/${currentLang}_questions.json`)
         .then(response => response.json())
         .then(data => {
             questions = data;
-            showQuestion();
         })
         .catch(error => console.error("Error loading questions:", error));
-});
+}
 
 function showQuestion() {
     const questionContainer = document.getElementById('question-container');
@@ -23,7 +30,7 @@ function showQuestion() {
         questionContainer.classList.add('fade-in');
     } else {
         console.error("Element 'question-container' not found");
-        return; // Wychodzimy z funkcji, jeśli nie znaleziono elementu
+        return;
     }
 
     document.getElementById("result-container").classList.remove("active");
@@ -66,7 +73,6 @@ function selectAnswer(selectedIndex) {
 
     selectedAnswerIndex = selectedIndex;
 
-    // Pokaż okienko z wyjaśnieniem zaraz po wyborze odpowiedzi
     const correctIndex = "ABCD".indexOf(currentQuestion.correctAnswer);
     const isCorrect = selectedIndex === correctIndex;
 
@@ -86,7 +92,7 @@ function showExplanation(isCorrect, explanation) {
         ? "CORRECT!\n" + explanation
         : "INCORRECT!\n" + explanation;
 
-    explanationContainer.style.display = "block"; // Upewniamy się, że element jest widoczny
+    explanationContainer.style.display = "block";
     explanationContainer.classList.remove("fade-out");
     explanationContainer.classList.add("fade-in");
 }

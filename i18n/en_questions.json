@@ -87,6 +87,34 @@
     ],
     "correctAnswer": "C",
     "explanation": "There is no safe dose of alcohol, as clearly demonstrated in the study \"Alcohol use and burden for 195 countries and territories, 1990-2016.\" The risk increases even with the lowest levels of alcohol consumption."
+  },
+  {
+    "question": "Does alcohol help in fighting depression?",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "correctAnswer": "B",
+    "explanation": "No, alcohol does not help in dealing with depression – on the contrary, it can make it worse. While some may turn to alcohol to temporarily ease feelings of sadness, anxiety, or fear, its effects are short-lived. In the long term, alcohol lowers serotonin levels, disrupts sleep cycles, leads to addiction, weakens self-control, and increases the risk of making impulsive and even destructive decisions."
+  },
+  {
+    "question": "How does alcohol affect potency and libido?",
+    "choices": [
+      "Positively",
+      "It's complicated",
+      "Negatively"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Although small amounts of alcohol can help with relaxation and reducing inhibitions, regular consumption may disrupt the production of hormones, such as testosterone in men and estrogen and progesterone in women, negatively affecting libido. Furthermore, alcohol lowers sperm quality in men, which can impact fertility."
+  },
+  {
+    "question": "How does beer affect potency, excluding the influence of alcohol?",
+    "choices": [
+      "Positively",
+      "It's complicated",
+      "Negatively"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Beer has a clearly negative impact on potency. It contains phytoestrogens (derived from hops), which are components of medications used to reduce libido. Such medications are typically prescribed to individuals dealing with excessive sexual drive."
   }
-
 ]

@@ -87,5 +87,24 @@
     ],
     "correctAnswer": "C",
     "explanation": "Nie istnieje bezpieczna dawka alkoholu, co zostało jasno wykazane w badaniu \"Alcohol use and burden for 195 countries and territories, 1990-2016\". Ryzyko wzrasta już od najniższych dawek alkoholu."
+  },
+  {
+    "question": "Czy alkohol pomaga w walce z depresją?",
+    "choices": [
+      "Tak",
+      "Nie"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Nie, alkohol nie pomaga w walce z depresją – wręcz przeciwnie, może ją pogłębiać. Choć niektórzy mogą sięgać po alkohol, próbując chwilowo złagodzić uczucie smutku, lęku czy niepokoju, jego działanie jest jedynie krótkotrwałe. W dłuższej perspektywie alkohol obniża poziom serotoniny, zaburza cykl snu, prowadzi do uzależnienia, osłabia samokontrolę i zwiększa ryzyko podejmowania impulsywnych, a nawet destrukcyjnych decyzji."
+  },
+  {
+    "question": "Jak piwo wpływa na potencję nie biorąc pod uwagę wpływu alkoholu?",
+    "choices": [
+      "Pozytywnie",
+      "To skomplikowane",
+      "Negatywnie"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Piwo wpływa jednoznacznie negatywnie na potencję. Zawiera fitoestrogeny (pochodzące z chmielu), które są składnikiem leków obniżających libido. Takie leki są zazwyczaj przepisywane osobom zmagającym się z problemem nadmiernego popędu seksualnego."
   }
 ]

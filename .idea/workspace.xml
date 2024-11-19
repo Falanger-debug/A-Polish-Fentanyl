@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/topics_sites/carcinogenicity.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/carcinogenicity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/topics_sites.css" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/topics_sites.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,8 @@
       <workItem from="1731789924820" duration="48000" />
       <workItem from="1731925190349" duration="839000" />
       <workItem from="1731957918784" duration="594000" />
-      <workItem from="1731996172349" duration="6941000" />
+      <workItem from="1731996172349" duration="7046000" />
+      <workItem from="1732007127856" duration="1434000" />
     </task>
     <servers />
   </component>

@@ -49,7 +49,7 @@ section{
     width: 75%;
     background-color: #ff8644;
     border-radius: 50px;
-    padding: 50px 0 50px 0;
+    padding: 50px 30px 50px 30px;
     margin-top: 85px;
 }
 
@@ -96,13 +96,25 @@ section h2{
     width: auto;
     color: black;
 }
-section p{
+section h3{
+    font-size: 1.7em;
+}
+section h4{
+    font-size: 1.5em;
+}
+section p, li{
+    font-weight: normal;
     color: black;
-    font-size: 1em;
+    font-size: 1.5em;
     background-color: transparent;
 }
 
 .papers{
     width: 75%;
     margin: 85px 0 100px 0;
+}
+
+.papers li{
+    text-align: center;
+    display: inline-block;
 }

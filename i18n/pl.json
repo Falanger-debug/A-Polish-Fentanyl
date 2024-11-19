@@ -9,7 +9,11 @@
   "aboutP": "Strona internetowa została stworzona w celu podniesienia świadomości społeczeństwa na temat produktów alkoholowych. <br>Wiele osób nie posiada pełnych informacji lub opiera swoją wiedzę na przestarzałych badaniach. Moim celem nie jest nakłanianie nikogo do rezygnacji z konsumpcji alkoholu. Chciałbym jednak, aby każda decyzja była podejmowana świadomie, z pełnym zrozumieniem potencjalnych zagrożeń, które mogą się z nią wiązać.",
   "topicsH1": "Tematy dyskusji",
   "topics_i1": "Neurotoksyczność",
+  "topics_i1_title_2": "",
+  "topics_i1_p": "",
   "topics_i2": "Rakotwórczość",
+  "topics_i2_title_2": "",
+  "topics_i2_p": "Na podstawie badania \"Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016\" można stwierdzić, że alkohol jest jednym z głównych czynników ryzyka dla zdrowia globalnego, a jego spożycie nie wiąże się z jakąkolwiek bezpieczną dawką.\n\nBadanie obejmowało 195 krajów i analizowało dane zebrane w latach 1990–2016. Wyniki wskazują, że ryzyko związane z konsumpcją alkoholu wzrasta wraz ze zwiększającymi się dawkami, a minimalny poziom konsumpcji alkoholu, który nie wiąże się z ryzykiem zdrowotnym, wynosi zero standardowych porcji tygodniowo (jedna porcja odpowiada 10 gramom czystego etanolu). \nSpożywanie alkoholu znacząco zwiększa ryzyko zachorowania na nowotwory, szczególnie u osób powyżej 50. roku życia. Nowotwory stanowiły 27,1% zgonów związanych z alkoholem u kobiet i 18,9% u mężczyzn w tej grupie wiekowej. W badaniu podkreślono, że ryzyko śmierci z jakiejkolwiek przyczyny (w tym z powodu nowotworów) rośnie wraz ze wzrostem spożycia alkoholu. W grupie wiekowej 15–49 lat alkohol był głównym czynnikiem ryzyka śmiertelności w skali globalnej. Przyczynił się on m.in. do zgonów związanych z gruźlicą, urazami drogowymi i samookaleczeniami. Alkohol był siódmym najważniejszym czynnikiem ryzyka dla zgonów i lat przeżytych z niepełnosprawnością (DALY) w 2016 roku. Autorzy badania sugerują, że strategie polityki zdrowotnej na całym świecie powinny skupić się na redukcji spożycia alkoholu na poziomie populacyjnym. Podsumowując, każda ilość alkoholu może negatywnie wpływać na zdrowie, a ograniczenie spożycia do zera jest jedynym sposobem na zminimalizowanie ryzyka poważnych konsekwencji zdrowotnych, w tym chorób nowotworowych.",
   "topics_i3": "Korelacja z Depresją",
   "topics_i4": "Pro-Impotencja",
   "topics_i5": "Śmiertelność",
@@ -18,5 +22,6 @@
   "topics_i8": "Akcyza i Straty Ekonomiczne",
   "topics_i9": "Tendencja Wzrostowa Konsumpcji Alkoholu",
   "description": "Opis",
-  "continue": "Dalej"
+  "continue": "Dalej",
+  "sources_of_conclusions": "Źródła powyższych wniosków"
 }

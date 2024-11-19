@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics_sites/neurotoxicity.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/neurotoxicity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics_sites/pro-impotence.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/pro-impotence.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +118,7 @@
       <workItem from="1731957918784" duration="594000" />
       <workItem from="1731996172349" duration="7046000" />
       <workItem from="1732007127856" duration="3730000" />
-      <workItem from="1732026900476" duration="1078000" />
+      <workItem from="1732026900476" duration="2523000" />
     </task>
     <servers />
   </component>

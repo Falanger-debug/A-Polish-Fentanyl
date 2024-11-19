@@ -8,7 +8,17 @@
   "aboutH1": "The Purpose",
   "aboutP": "This website was created to raise public awareness about alcoholic products. Many people lack comprehensive information or base their knowledge on outdated research. My goal is not to persuade anyone to stop consuming alcohol. However, I aim to ensure that every decision is made consciously, with a full understanding of the potential risks involved.",
   "topicsH1": "Topics of discussion",
+
   "topics_i1": "Neurotoxicity",
+  "topics_i1_h2_2": "Brain damage caused by alcohol persists after cessation of consumption.",
+  "topics_i1_p1": "German-Spanish research challenges previous beliefs that the brain begins to regenerate immediately after stopping alcohol consumption.",
+  "topics_i1_h3_1": "Alcohol harms even in small amounts.",
+  "topics_i1_p2": "Although it has long been known that alcohol damages the brain in many ways, the mechanisms occurring shortly after alcohol cessation remain poorly understood. Researchers from the Neuroscience Institute of the Spanish National Research Council and the Central Institute of Mental Health in Mannheim undertook a study of this phenomenon.",
+  "topics_i1_p3": "Using magnetic resonance imaging, the brains of patients undergoing alcohol addiction therapy were analyzed.",
+  "topics_i1_p4": "An important aspect of the work is that the group of patients participating in our research are hospitalized in a detoxification program, and their consumption of addictive substances is controlled, which <b>guarantees that they are not drinking any alcohol</b>. Therefore, the abstinence phase can be followed closely”, highlights Dr. Canals.",
+  "topics_i1_p5": "Simultaneously, studies were conducted on laboratory rats with a natural tendency to consume alcohol. This allowed for precise tracking of brain changes during the development of addiction. The results were surprising: <b>even six weeks after cessation of drinking, patients showed further damage to the brain's white matter.</b>",
+  "topics_i1_p6": "With the consumption of alcohol <b>“there is a generalized change in the white matter, that is, in the set of fibers that communicate different parts of the brain. The alterations are more intense in the corpus callosum and the fimbria. The corpus callosum is related to the communication between both hemispheres. The fimbria contains the nerve fibers that communicate the hippocampus, a fundamental structure for the formation of memories, the nucleus accumbens and the prefrontal cortex, “</b>explains Dr. Canals. The nucleus accumbens is part of the reward system of the brain and the prefrontal cortex is fundamental in decision making.",
+  "topics_i1_p7": "It was previously not believed that during the abstinence phase, despite the absence of alcohol, brain damage could continue to progress – notes Dr. Canals. The damage was observed mainly in the right hemisphere and anterior brain regions. These findings challenge existing theories that the brain begins to regenerate immediately after stopping alcohol consumption.",
 
   "topics_i2": "Carcinogenicity",
   "topics_i2_h2_2": "Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",

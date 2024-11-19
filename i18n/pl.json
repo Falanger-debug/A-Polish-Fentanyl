@@ -50,10 +50,26 @@
   "topics_i3_p6": "<b>Spożywanie alkoholu w nadmiarze:<br></b> Wyraźnie zwiększa ryzyko zaburzeń erekcji, szczególnie w przypadku przewlekłego picia.",
   "topics_i3_p7": "<b>Abstynencja:<br></b> Znacząco poprawia funkcje seksualne, co potwierdzają wyniki badań klinicznych.",
   "topics_i3_p8": "<b>Piwo i fitoestrogeny:<br></b> Chociaż chmiel zawiera związki mogące wpływać na gospodarkę hormonalną, ich stężenia w piwie przy umiarkowanym spożyciu nie powinny wywoływać istotnych skutków.",
-  
-  "topics_i4": "Korelacja z Depresją",
 
-  "topics_i5": "Śmiertelność",
+  "topics_i4": "Fetal Alcohol Syndrome",
+  "topics_i4_h3_1": "Alkohol ojca a zdrowie potomstwa",
+  "topics_i4_p1": "Nowe badania przeprowadzone przez naukowców z Uniwersytetu Texas A&M ujawniają, że <b>spożycie alkoholu przez ojca przed poczęciem</b> może mieć istotny wpływ na rozwój dziecka, w tym prowadzić do <b>wad wzrostowych, zwłaszcza w obrębie twarzy i mózgu.</b> Dotychczas badania nad płodowym zespołem alkoholowym (FAS) koncentrowały się wyłącznie na matkach, ale te nowe odkrycia zmieniają tę perspektywę.",
+  "topics_i4_h3_2": "Alkohol a zmiany w twarzy i mózgu",
+  "topics_i4_p2": "Badania wykazały, że ekspozycja ojca na alkohol przed poczęciem wywołuje zmiany w organizacji twarzy dziecka, które są <b>silniejsze niż zmiany spowodowane przez alkohol matki.</b> Spożycie alkoholu przez ojca prowadzi do <b>nieprawidłowego rozwoju rysów twarzy i wzrostu mózgu</b>, co ma długoterminowe konsekwencje zdrowotne dla potomstwa.",
+  "topics_i4_h3_3": "Nowe podejście do diagnozy FAS",
+  "topics_i4_p4": "Obecne metody diagnozowania FAS skupiają się na historii spożycia alkoholu przez matkę, co może prowadzić do błędnych wniosków, zwłaszcza gdy matka zaprzecza konsumpcji alkoholu. Badania te sugerują, że ważnym elementem jest także zdrowie ojca i jego wpływ na dziecko, co dotychczas było pomijane.",
+  "topics_i4_h3_4": "Znaczenie zdrowia ojca",
+  "topics_i4_p5": "Zrozumienie roli zdrowia ojca przed poczęciem jest kluczowe dla poprawy wyników ciążowych i zdrowia płodu. Badania pokazują, że zdrowie obu rodziców ma wpływ na rozwój dziecka, a nie tylko matki. Dlatego tak ważna jest edukacja dotycząca wpływu nawyków ojca na zdrowie potomstwa.",
+  "topics_i4_h3_5": "Kluczowe wnioski",
+  "topics_i4_p6": "<b>Alkohol ojca:<br></b> Spożycie alkoholu przez ojca przed poczęciem może prowadzić do wad rozwojowych u dziecka, szczególnie w zakresie twarzy i mózgu.",
+  "topics_i4_p7": "<b>Diagnostyka FAS:<br></b> Należy uwzględnić wpływ ojca na rozwój płodu w procesie diagnozowania FAS, aby zapewnić dokładniejsze wnioski.",
+  "topics_i4_p8": "<b>Rola ojca w zdrowiu dziecka:<br></b> Świadomość wpływu zdrowia ojca na zdrowie potomstwa przed poczęciem powinna stać się równie ważna jak edukacja na temat roli matki.",
+
+
+
+
+
+"topics_i5": "Śmiertelność",
   "topics_i6": "Przemoc domowa",
   "topics_i7": "Wino i Resveratrol",
   "topics_i8": "Akcyza i Straty Ekonomiczne",

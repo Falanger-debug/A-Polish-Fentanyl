@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics_sites/depression.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/fas.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/topics_sites/neurotoxicity.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/neurotoxicity.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/topics_sites/pro-impotence.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/pro-impotence.html" afterDir="false" />
     </list>
@@ -44,33 +46,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.carcinogenicity.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.footer.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.header.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.main.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.main_site.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz_1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz_2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz_main.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.headerLoader.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.quiz.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;merits__of__the__website&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.carcinogenicity.html.executor": "Run",
+    "JavaScript Debug.fas.html.executor": "Run",
+    "JavaScript Debug.footer.html.executor": "Run",
+    "JavaScript Debug.header.html.executor": "Run",
+    "JavaScript Debug.main.html.executor": "Run",
+    "JavaScript Debug.main_site.html.executor": "Run",
+    "JavaScript Debug.quiz.html.executor": "Run",
+    "JavaScript Debug.quiz_1.html.executor": "Run",
+    "JavaScript Debug.quiz_2.html.executor": "Run",
+    "JavaScript Debug.quiz_main.html.executor": "Run",
+    "Node.js.headerLoader.js.executor": "Run",
+    "Node.js.quiz.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "merits__of__the__website",
+    "last_opened_file_path": "C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\images" />
@@ -118,7 +121,7 @@
       <workItem from="1731957918784" duration="594000" />
       <workItem from="1731996172349" duration="7046000" />
       <workItem from="1732007127856" duration="3730000" />
-      <workItem from="1732026900476" duration="2523000" />
+      <workItem from="1732026900476" duration="5445000" />
     </task>
     <servers />
   </component>

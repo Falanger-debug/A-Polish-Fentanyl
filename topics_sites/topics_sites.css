@@ -92,23 +92,23 @@ section{
 
 section h2{
     margin-bottom: 10px;
-    font-size: 2em;
+    font-size: clamp(1em, 2vw, 4em);
     width: auto;
     color: black;
 }
 section h3{
     text-align: center;
-    font-size: 1.7em;
+    font-size: clamp(0.75em, 1.75vw, 3em);
 }
 section h4{
     text-align: center;
-    font-size: 1.5em;
+    font-size: clamp(0.6em, 1.5vw, 2.5em);
 }
-section p, li{
+section p{
     text-align: justify;
     font-weight: normal;
     color: black;
-    font-size: 1.5em;
+    font-size: clamp(0.2em, 1.6vw, 3em);
     background-color: transparent;
 }
 

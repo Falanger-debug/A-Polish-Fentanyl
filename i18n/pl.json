@@ -7,7 +7,7 @@
   "language": "English",
   "aboutH1": "Cel Tej Strony",
   "aboutP": "Strona internetowa została stworzona w celu podniesienia świadomości społeczeństwa na temat produktów alkoholowych. <br>Wiele osób nie posiada pełnych informacji lub opiera swoją wiedzę na przestarzałych badaniach. Moim celem nie jest nakłanianie nikogo do rezygnacji z konsumpcji alkoholu. Chciałbym jednak, aby każda decyzja była podejmowana świadomie, z pełnym zrozumieniem potencjalnych zagrożeń, które mogą się z nią wiązać.",
-  "topicsH1": "Tematy dyskusji",
+  "topicsH1": "Tematy Dyskusji",
 
   "topics_i1": "Neurotoksyczność",
   "topics_i1_h2_2": "Uszkodzenia mózgu spowodowane alkoholem utrzymują się po zaprzestaniu jego spożywania.",
@@ -38,7 +38,7 @@
   "topics_i2_p7": "Autorzy badania sugerują, że strategie polityki zdrowotnej na całym świecie powinny skupić się na redukcji spożycia alkoholu na poziomie populacyjnym.",
   "topics_i2_p8": "Podsumowując, każda ilość alkoholu może negatywnie wpływać na zdrowie, a ograniczenie spożycia do zera jest jedynym sposobem na zminimalizowanie ryzyka poważnych konsekwencji zdrowotnych, w tym chorób nowotworowych.",
 
-  "topics_i3": "Alkohol a potencja",
+  "topics_i3": "Alkohol a Potencja",
   "topics_i3_h2_2": "Alkohol a potencja: skutki spożycia i abstynencji",
   "topics_i3_p1": "Nowe badania rzucają światło na związki między spożyciem alkoholu, w tym piwa, a potencją. Wyniki wskazują na potencjalne mechanizmy prowadzące do zaburzeń erekcji (ED) oraz możliwość częściowego odwrócenia tych efektów po zaprzestaniu picia.",
   "topics_i3_h3_1": "Piwo i zawartość fitoestrogenów",
@@ -51,9 +51,9 @@
   "topics_i3_p7": "<b>Abstynencja:<br></b> Znacząco poprawia funkcje seksualne, co potwierdzają wyniki badań klinicznych.",
   "topics_i3_p8": "<b>Piwo i fitoestrogeny:<br></b> Chociaż chmiel zawiera związki mogące wpływać na gospodarkę hormonalną, ich stężenia w piwie przy umiarkowanym spożyciu nie powinny wywoływać istotnych skutków.",
 
-  "topics_i4": "Płodowy Zespół Alkoholowy",
+  "topics_i4": "Fetal Alcohol Syndrome",
   "topics_i4_h3_1": "Alkohol ojca a zdrowie potomstwa",
-  "topics_i4_p1": "Nowe badania przeprowadzone przez naukowców z Uniwersytetu Texas A&M ujawniają, że <b>spożycie alkoholu przez ojca przed poczęciem</b> może mieć istotny wpływ na rozwój dziecka, w tym prowadzić do <b>wad wzrostowych, zwłaszcza w obrębie twarzy i mózgu.</b> Dotychczas badania nad płodowym zespołem alkoholowym (FAS) koncentrowały się wyłącznie na matkach, ale te nowe odkrycia zmieniają tę perspektywę.",
+  "topics_i4_p1": "Nowe badania przeprowadzone przez naukowców z Uniwersytetu Texas A&M ujawniają, że spożycie alkoholu <b>przez ojca przed poczęciem</b> może mieć istotny wpływ na rozwój dziecka, w tym prowadzić do wad wzrostowych, zwłaszcza w obrębie twarzy i mózgu. Dotychczas badania nad płodowym zespołem alkoholowym (FAS) koncentrowały się wyłącznie na matkach, ale te nowe odkrycia zmieniają tę perspektywę.",
   "topics_i4_h3_2": "Alkohol a zmiany w twarzy i mózgu",
   "topics_i4_p2": "Badania wykazały, że ekspozycja ojca na alkohol przed poczęciem wywołuje zmiany w organizacji twarzy dziecka, które są <b>silniejsze niż zmiany spowodowane przez alkohol matki.</b> Spożycie alkoholu przez ojca prowadzi do <b>nieprawidłowego rozwoju rysów twarzy i wzrostu mózgu</b>, co ma długoterminowe konsekwencje zdrowotne dla potomstwa.",
   "topics_i4_h3_3": "Nowe podejście do diagnozy FAS",
@@ -65,7 +65,7 @@
   "topics_i4_p7": "<b>Diagnostyka FAS:<br></b> Należy uwzględnić wpływ ojca na rozwój płodu w procesie diagnozowania FAS, aby zapewnić dokładniejsze wnioski.",
   "topics_i4_p8": "<b>Rola ojca w zdrowiu dziecka:<br></b> Świadomość wpływu zdrowia ojca na zdrowie potomstwa przed poczęciem powinna stać się równie ważna jak edukacja na temat roli matki.",
 
-  "topics_i5": "Straty ekonomiczne",
+  "topics_i5": "Straty Ekonomiczne",
   "topics_i5_h2_2": "Koszty społeczno-ekonomiczne spożywania alkoholu w Polsce (stan na 2020 r.)",
   "topics_i5_h3_1": "Kluczowe koszty społeczno-ekonomiczne",
   "topics_i5_p1": "Zidentyfikowane w raporcie ALICE RAP koszty spożycia alkoholu obejmują:<br><b>Śmiertelność i zdrowie:</b><br>- Zwiększona śmiertelność związana z alkoholem.<br>- Skrócony okres życia.<br>- Choroby wątroby, trzustki, układu nerwowego oraz psychiczne.<br><b>Finansowe obciążenia publiczne:</b><br>- Koszty systemu ochrony zdrowia.<br>- Straty Produktu Krajowego Brutto (PKB).<br>- Koszty opieki społecznej (w tym izb wytrzeźwień).<br>- Wydatki na przeciwdziałanie problemom alkoholowym.<br><b>System prawny i bezpieczeństwa:</b><br>- Koszty wymiaru sprawiedliwości, straży granicznej i celnej.<br>- Koszty interwencji policji, sądów, prokuratury i kuratorów sądowych.<br>- Wydatki na system ratowniczo-gaśniczy.",
@@ -87,10 +87,8 @@
   "topics_i5_p10": "Spożywanie alkoholu w Polsce generuje ogromne koszty ekonomiczne, społeczne i zdrowotne. Zgony, utracone lata życia i obciążenie systemu publicznego stanowią istotne wyzwania dla polityki zdrowotnej i społecznej. Wciąż jednak nie uwzględniono pełnego zakresu kosztów, co sugeruje ich znaczące niedoszacowanie.",
 
 
-
-
-"topics_i7": "Śmiertelność",
-  "topics_i6": "Przemoc domowa",
+  "topics_i7": "Śmiertelność",
+  "topics_i6": "Przemoc Domowa",
 
   "topics_i8": "Akcyza i Straty Ekonomiczne",
   "topics_i9": "Tendencja Wzrostowa Konsumpcji Alkoholu",

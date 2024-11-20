@@ -1,6 +1,5 @@
 const translations = {
-    en: null,
-    pl: null
+    en: null, pl: null
 };
 
 let currentLang = localStorage.getItem('lang') || 'en';
@@ -35,11 +34,10 @@ async function changeLanguage(lang) {
     currentLang = lang;
 
     const path = window.location.pathname
-    if (path.includes("quiz_1.html")){
+    if (path.includes("quiz.html")) {
         await loadQuestions();
         showQuestion();
     }
-
 }
 
 

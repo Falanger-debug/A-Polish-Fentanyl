@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Quiz</title>
@@ -13,19 +14,22 @@
 
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/quiz_rest.css">
+    <link rel="stylesheet" href="../styles/quiz.css">
+    <link rel="stylesheet" href="../styles/footer.css">
 </head>
+
+
 <body>
 <div id="header"></div>
 <div class="container">
     <div class="quiz-container">
         <div id="question-container" class="question-container">
-            <h2 id="question" >Question will appear here</h2>
+            <h2 id="question">Question will appear here</h2>
             <div id="choices" class="choices"></div>
 
             <div id="explanation-container" class="explanation-container">
                 <button id="continue-button" data-i18n="continue" onclick="nextQuestion()">Continue</button>
-                <p id="explanation-text" >Explanation will appear here</p>
+                <p id="explanation-text">Explanation will appear here</p>
             </div>
         </div>
 
@@ -36,6 +40,9 @@
     </div>
 </div>
 
+<div class="footer">
+    <p data-i18n="copy">&copy; 2024 Sober Choice. All rights reserved.</p>
+</div>
 
 </body>
 </html>

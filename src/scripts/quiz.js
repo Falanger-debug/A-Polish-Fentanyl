@@ -57,7 +57,7 @@ function showQuestion() {
 
 function hideQuestion() {
     const questionContainer = document.getElementById('question-container');
-    if(questionContainer){
+    if (questionContainer) {
         questionContainer.classList.remove('fade-out');
         questionContainer.classList.remove('fade-in');
         questionContainer.style.display = "none";
@@ -77,7 +77,7 @@ function selectAnswer(selectedIndex) {
     const isCorrect = selectedIndex === correctIndex;
 
     if (isCorrect) {
-        score ++;
+        score++;
     }
 
     showExplanation(isCorrect, currentQuestion.explanation);
@@ -88,17 +88,11 @@ function showExplanation(isCorrect, explanation) {
     const explanationContainer = document.getElementById("explanation-container");
     const explanationText = document.getElementById("explanation-text");
 
-    if (currentLang === 'en'){
-        explanationText.innerText = isCorrect
-            ? "CORRECT!\n" + explanation
-            : "INCORRECT!\n" + explanation;
+    if (currentLang === 'en') {
+        explanationText.innerText = isCorrect ? "CORRECT!\n" + explanation : "INCORRECT!\n" + explanation;
+    } else {
+        explanationText.innerText = isCorrect ? "PRAWDA!\n" + explanation : "FAŁSZ!\n" + explanation;
     }
-    else{
-        explanationText.innerText = isCorrect
-            ? "PRAWDA!\n" + explanation
-            : "FAŁSZ!\n" + explanation;
-    }
-
 
 
     explanationContainer.style.display = "block";
@@ -130,9 +124,9 @@ function nextQuestion() {
 function showResult() {
     document.getElementById("question-container").classList.remove("active");
     document.getElementById("result-container").classList.add("active");
-    if (currentLang === "en"){
+    if (currentLang === "en") {
         document.getElementById("score").innerText = `Your score: ${score} / ${questions.length}`;
-    }else{
+    } else {
         document.getElementById("score").innerText = `Twój wynik: ${score} / ${questions.length}`;
     }
 }

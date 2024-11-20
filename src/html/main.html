@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Sober Choice</title>
 
     <script src="../scripts/headerLoader.js"></script>
-    <script src="../scripts/footerLoader.js"></script>
     <script src="https://kit.fontawesome.com/d8e23ce567.js" crossorigin="anonymous"></script>
     <script src="../scripts/i18n.js" defer></script>
 
@@ -19,8 +19,9 @@
     <link rel="preload" href="../../images/man_drinking_beer_left.png" as="image">
     <link rel="preload" href="../../images/man_drinking_beer_right.png" as="image">
 </head>
-<body>
 
+
+<body>
 <div id="header"></div>
 
 <div id="wrapper" class="wrapper">
@@ -29,20 +30,18 @@
         <img id="left-img" class="slide-in left" src="../../images/man_drinking_beer_left.png" alt="Man drinking beer"/>
         <div id="center-welcome" class="slide-in top">
             <h1 data-i18n="welcomeMessage">All About Alcohol</h1>
-            <a href="quiz_1.html" class="start-quiz-button" data-i18n="quizStartButton">Start Quiz</a>
+            <a href="quiz.html" class="start-quiz-button" data-i18n="quizStartButton">Start Quiz</a>
         </div>
-        <img id="right-img" class="slide-in right" src="../../images/man_drinking_beer_right.png" alt="Man drinking beer">
+        <img id="right-img" class="slide-in right" src="../../images/man_drinking_beer_right.png"
+             alt="Man drinking beer">
     </div>
 
     <div class="about" id="about">
         <h2 data-i18n="aboutH1">The purpose</h2>
-        <p data-i18n="aboutP">This website was created to raise public awareness about alcohol.
-            My focus is primarily on occasional drinkers.
-            Many people are not fully aware of the effects of ethanol consumption, even in small amounts, occasionally.
-            Warning: You may not want to get to know. Knowledge that is gathered on this website is hard to accept for
-            many
-            people.
-        </p>
+        <p data-i18n="aboutP">This website was created to raise public awareness about alcoholic products. Many people
+            lack comprehensive information or base their knowledge on outdated research. My goal is not to persuade
+            anyone to stop consuming alcohol. However, I aim to ensure that every decision is made consciously, with a
+            full understanding of the potential risks involved.</p>
     </div>
 
     <div class="topics" id="topics">
@@ -52,7 +51,7 @@
             <li><a href="carcinogenicity.html" data-i18n="topics_i2">Carcinogenicity</a></li>
             <li><a href="pro-impotence.html" data-i18n="topics_i3">Pro-Impotence</a></li>
             <li><a href="fas.html" data-i18n="topics_i4">FAS</a></li>
-            <li><a href="economic.html" data-i18n="topics_i5">Excise Duty & Economic Losses</a></li>
+            <li><a href="economic_losses.html" data-i18n="topics_i5">Excise Duty & Economic Losses</a></li>
         </ul>
     </div>
 
@@ -67,7 +66,5 @@
         document.querySelectorAll('.slide-in').forEach(el => el.style.opacity = 1);
     });
 </script>
-
-
 </body>
 </html>

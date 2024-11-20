@@ -88,9 +88,18 @@ function showExplanation(isCorrect, explanation) {
     const explanationContainer = document.getElementById("explanation-container");
     const explanationText = document.getElementById("explanation-text");
 
-    explanationText.innerText = isCorrect
-        ? "CORRECT!\n" + explanation
-        : "INCORRECT!\n" + explanation;
+    if (currentLang === 'en'){
+        explanationText.innerText = isCorrect
+            ? "CORRECT!\n" + explanation
+            : "INCORRECT!\n" + explanation;
+    }
+    else{
+        explanationText.innerText = isCorrect
+            ? "PRAWDA!\n" + explanation
+            : "FAŁSZ!\n" + explanation;
+    }
+
+
 
     explanationContainer.style.display = "block";
     explanationContainer.classList.remove("fade-out");
@@ -98,11 +107,7 @@ function showExplanation(isCorrect, explanation) {
 }
 
 function nextQuestion() {
-    const questionContainer = document.getElementById("questionContainer");
     const explanationContainer = document.getElementById("explanation-container");
-
-    // questionContainer.classList.remove("fade-in");
-    // questionContainer.classList.add("face-out");
 
     explanationContainer.classList.remove("fade-in");
     explanationContainer.classList.add("fade-out");
@@ -125,7 +130,11 @@ function nextQuestion() {
 function showResult() {
     document.getElementById("question-container").classList.remove("active");
     document.getElementById("result-container").classList.add("active");
-    document.getElementById("score").innerText = `${score} / ${questions.length}`;
+    if (currentLang === "en"){
+        document.getElementById("score").innerText = `Your score: ${score} / ${questions.length}`;
+    }else{
+        document.getElementById("score").innerText = `Twój wynik: ${score} / ${questions.length}`;
+    }
 }
 
 

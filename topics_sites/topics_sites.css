@@ -49,7 +49,7 @@ section{
     width: 75%;
     background-color: #ff8644;
     border-radius: 50px;
-    padding: 50px 0 50px 0;
+    padding: 50px 30px 50px 30px;
     margin-top: 85px;
 }
 
@@ -92,17 +92,32 @@ section{
 
 section h2{
     margin-bottom: 10px;
-    font-size: 2em;
+    font-size: clamp(1em, 2vw, 4em);
     width: auto;
     color: black;
 }
+section h3{
+    text-align: center;
+    font-size: clamp(0.75em, 1.75vw, 3em);
+}
+section h4{
+    text-align: center;
+    font-size: clamp(0.6em, 1.5vw, 2.5em);
+}
 section p{
+    text-align: justify;
+    font-weight: normal;
     color: black;
-    font-size: 1em;
+    font-size: clamp(0.2em, 1.6vw, 3em);
     background-color: transparent;
 }
 
 .papers{
     width: 75%;
     margin: 85px 0 100px 0;
+}
+
+.papers li{
+    text-align: center;
+    display: inline-block;
 }

@@ -9,6 +9,7 @@
     .title{
         text-wrap: nowrap;
     }
+    max-height: 80px;
 }
 
 .title {

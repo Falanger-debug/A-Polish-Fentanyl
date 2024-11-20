@@ -17,7 +17,6 @@
 </head>
 <body>
 <div id="header"></div>
-
 <div class="container">
     <div class="quiz-container">
         <div id="question-container" class="question-container">
@@ -25,13 +24,13 @@
             <div id="choices" class="choices"></div>
 
             <div id="explanation-container" class="explanation-container">
+                <button id="continue-button" data-i18n="continue" onclick="nextQuestion()">Continue</button>
                 <p id="explanation-text" >Explanation will appear here</p>
-                <button id="continue-button" onclick="nextQuestion()">Continue</button>
             </div>
         </div>
 
         <div id="result-container" class="result-container">
-            <h2>Your Score: <span id="score"></span></h2>
+            <h2><span id="score"></span></h2>
             <button onclick="restartQuiz()">Restart Quiz</button>
         </div>
     </div>

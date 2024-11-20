@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sober Choice</title>
+
+    <script src="../scripts/headerLoader.js"></script>
+    <script src="https://kit.fontawesome.com/d8e23ce567.js" crossorigin="anonymous"></script>
+    <script src="../scripts/i18n.js" defer></script>
+
+    <link rel="icon" type="image/x-icon" href="../../images/sober_choice_logo.ico">
+
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/list-style.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+
+    <link rel="preload" href="../../images/man_drinking_beer_left.png" as="image">
+    <link rel="preload" href="../../images/man_drinking_beer_right.png" as="image">
+</head>
+
+
+<body>
+<div id="header"></div>
+
+<div id="wrapper" class="wrapper">
+
+    <div class="quiz-welcome" id="quiz-welcome">
+        <img id="left-img" class="slide-in left" src="../../images/man_drinking_beer_left.png" alt="Man drinking beer"/>
+        <div id="center-welcome" class="slide-in top">
+            <h1 data-i18n="welcomeMessage">All About Alcohol</h1>
+            <a href="quiz.html" class="start-quiz-button" data-i18n="quizStartButton">Start Quiz</a>
+        </div>
+        <img id="right-img" class="slide-in right" src="../../images/man_drinking_beer_right.png"
+             alt="Man drinking beer">
+    </div>
+
+    <div class="about" id="about">
+        <h2 data-i18n="aboutH1">The purpose</h2>
+        <p data-i18n="aboutP">This website was created to raise public awareness about alcoholic products. Many people
+            lack comprehensive information or base their knowledge on outdated research. My goal is not to persuade
+            anyone to stop consuming alcohol. However, I aim to ensure that every decision is made consciously, with a
+            full understanding of the potential risks involved.</p>
+    </div>
+
+    <div class="topics" id="topics">
+        <h2 data-i18n="topicsH1">Topics of discussion</h2>
+        <ul>
+            <li><a href="neurotoxicity.html" data-i18n="topics_i1">Neurotoxicity</a></li>
+            <li><a href="carcinogenicity.html" data-i18n="topics_i2">Carcinogenicity</a></li>
+            <li><a href="pro-impotence.html" data-i18n="topics_i3">Pro-Impotence</a></li>
+            <li><a href="fas.html" data-i18n="topics_i4">FAS</a></li>
+            <li><a href="economic_losses.html" data-i18n="topics_i5">Excise Duty & Economic Losses</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p data-i18n="copy">&copy; 2024 Sober Choice. All rights reserved.</p>
+</div>
+
+<script>
+    window.addEventListener("load", () => {
+        document.querySelectorAll('.slide-in').forEach(el => el.style.opacity = "1");
+    });
+</script>
+</body>
+</html>

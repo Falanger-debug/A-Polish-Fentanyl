@@ -1,0 +1,56 @@
+.header {
+    background-color: #3d74c3;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid white;
+    .title{
+        text-wrap: nowrap;
+    }
+    max-height: 80px;
+}
+
+.title {
+    font-family: 'Copperplate Gothic Light', serif;
+    font-size: clamp(0.5em, 5vw, 3em);
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-right: 5px;
+}
+
+.title:hover {
+    color: #d1e0f3;
+}
+
+.nav_links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: white;
+    font-size: clamp(0.1em, 1.5vw, 2em);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease;
+}
+
+.nav_links a:hover {
+    color: #d1e0f3;
+}
+
+.nav_links i {
+    font-size: 1.2em;
+}
+
+@media (max-width: 878px) {
+    .nav_links a span {
+        display: none;
+    }
+}

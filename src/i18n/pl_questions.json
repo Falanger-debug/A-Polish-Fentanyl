@@ -1,0 +1,110 @@
+[
+  {
+    "question": "Czy alkohol jest narkotykiem?",
+    "choices": [
+      "Tak",
+      "Nie"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tak, alkohol jest klasyfikowany jako narkotyk oraz substancja psychoaktywna, która wpływa na funkcje poznawcze, emocje i percepcję. Jednymi z powodów, dla których niektórzy błędnie nie uważają alkoholu za narkotyk, są: legalność substancji, rozpowszechnienie spożycia i fraza \"narkotyki i alkohol\", która sugeruje, że alkohol nie jest narkotykiem."
+  },
+  {
+    "question": "Jakiego rodzaju narkotykiem jest alkohol?",
+    "choices": [
+      "Stymulantem",
+      "Opioidem",
+      "Depresantem",
+      "Halucynogenem"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alkohol jest depresantem, ponieważ wpływa na centralny układ nerwowy, spowalniając jego działanie. Jego metabolity oddziałują na mózg, zmieniając aktywność neuroprzekaźników. W skrócie, alkohol działa depresyjnie na układ nerwowy, co oznacza, że zmniejsza się zdolność mózgu do szybkiego i efektywnego przetwarzania informacji oraz spowalnia reakcje organizmu."
+  },
+  {
+    "question": "Ile zgonów na całym świecie spowodowało spożycie alkoholu w 2019 roku?",
+    "choices": [
+      "600,000",
+      "2,600,000",
+      "1,300,000",
+      "4,000,000"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Alkohol był odpowiedzialny za około 2,6 miliona zgonów na całym świecie w 2019 roku. Dla porównania, COVID-19 spowodował około 3 miliony zgonów na całym świecie w 2020 roku. Aby zredukować tę śmiertelność, ludzie zostali zmuszeni do pozostania w domach i noszenia maseczek. Dlaczego więc nikt nie dostrzega problemu corocznych strat ludzkich związanych z alkoholem?"
+  },
+  {
+    "question": "Czy dochody z podatku akcyzowego od alkoholu w Polsce w pełni rekompensują straty społeczne i materialne?",
+    "choices": [
+      "Tak",
+      "Nie"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dochody z podatku akcyzowego od alkoholu wyniosły w 2020 roku 13,4 miliarda złotych. Jednak nie zrekompensowały one kosztów społecznych i materialnych, które sięgnęły 93,3 miliarda złotych, co stanowiło wówczas 3,45% PKB Polski."
+  },
+  {
+    "question": "Jak długo po zaprzestaniu picia alkoholu występuje uszkadzanie mózgu?",
+    "choices": [
+      "2 tygodnie",
+      "2 dni",
+      "6 tygodni",
+      "7 dni"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Przez 6 tygodni po spożyciu alkoholu dochodzi do ciągłego uszkadzania mózgu. Odpowiedzialny za to jest nie tyle sam alkohol, co jeden z jego metabolitów. Aldehyd kwasu octowego powoduje uszkodzenie mieliny, która pełni funkcję ochronną dla połączeń nerwowych w ludzkim mózgu. Dzięki mielinie impulsy nerwowe mogą przemieszczać się szybciej, co umożliwia prawidłowe funkcjonowanie mózgu, w tym myślenie, zapamiętywanie i koordynację ruchową. Jej zniszczenie prowadzi do pogorszenia zdolności poznawczych i zaburzeń neurologicznych."
+  },
+  {
+    "question": "Czy alkohol jest rakotwórczy?",
+    "choices": [
+      "Tak",
+      "Nie"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tak, alkohol jest uznawany za substancję rakotwórczą. Spożywanie alkoholu wiąże się z zwiększonym ryzykiem rozwoju różnych typów nowotworów, w tym raka wątroby, jamy ustnej, gardła, krtani, przełyku, jelita grubego oraz piersi. Alkohol działa rakotwórczo poprzez różne mechanizmy, takie jak uszkodzenie DNA, stres oksydacyjny oraz wpływ na metabolizm hormonów, szczególnie estrogenów u kobiet."
+  },
+  {
+    "question": "Czy picie wina jest dobre dla zdrowia?",
+    "choices": [
+      "Tak",
+      "To skomplikowane",
+      "Nie"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Wiele badań wskazuje na potencjalne korzyści zdrowotne płynące z umiarkowanego spożycia czerwonego wina. Wynika to głównie z antyoksydantów zawartych w tym trunku, takich jak resweratrol. Niemniej jednak, nie można jednoznacznie stwierdzić, że czerwone wino jest prozdrowotne. Okazuje się, że w krajach takich jak Francja, gdzie spożywanie wina jest powszechne, występuje bardzo wysoka częstość marskości wątroby i raka wątroby związanych z konsumpcją etanolu."
+  },
+  {
+    "question": "Czy ojciec dziecka może być odpowiedzialnym za FAS(płodowy zespół alkoholowy)?",
+    "choices": [
+      "Tak",
+      "Nie"
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ekspozycja na alkohol ze strony ojca przed poczęciem może powodować poważne wady w rozwoju mózgu i twarzy dziecka, które są charakterystyczne dla FAS. Badanie opublikowane w 2023 roku podważa wcześniejsze założenie, że tylko picie alkoholu przez matkę jest związane z FAS. Wyniki tego badania wskazują, że nawet sporadyczne picie przez ojca może prowadzić do nieodwracalnych uszkodzeń zdrowia dziecka."
+  },
+  {
+    "question": "Jaka dawka alkoholu jest bezpieczna dawka do spożycia?",
+    "choices": [
+      "10-15 gramów dziennie",
+      "20-30 gramów dziennie",
+      "Nie istnieje bezpieczna dawka alkoholu"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Nie istnieje bezpieczna dawka alkoholu, co zostało jasno wykazane w badaniu \"Alcohol use and burden for 195 countries and territories, 1990-2016\". Ryzyko wzrasta już od najniższych dawek alkoholu."
+  },
+  {
+    "question": "Czy alkohol pomaga w walce z depresją?",
+    "choices": [
+      "Tak",
+      "Nie"
+    ],
+    "correctAnswer": "B",
+    "explanation": "Nie, alkohol nie pomaga w walce z depresją. Wręcz przeciwnie, może ją pogłębiać. Choć niektórzy mogą sięgać po alkohol, próbując chwilowo złagodzić uczucie smutku, lęku czy niepokoju, jego działanie jest jedynie krótkotrwałe. W dłuższej perspektywie alkohol obniża poziom serotoniny, zaburza cykl snu, prowadzi do uzależnienia, osłabia samokontrolę i zwiększa ryzyko podejmowania impulsywnych, a nawet destrukcyjnych decyzji."
+  },
+  {
+    "question": "Jak piwo wpływa na potencję nie biorąc pod uwagę wpływu alkoholu?",
+    "choices": [
+      "Pozytywnie",
+      "To skomplikowane",
+      "Negatywnie"
+    ],
+    "correctAnswer": "C",
+    "explanation": "Piwo wpływa jednoznacznie negatywnie na potencję. Zawiera fitoestrogeny (pochodzące z chmielu), które są składnikiem leków obniżających libido. Takie leki są zazwyczaj przepisywane osobom zmagającym się z problemem nadmiernego popędu seksualnego."
+  }
+]

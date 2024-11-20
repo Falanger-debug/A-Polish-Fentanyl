@@ -1,0 +1,35 @@
+ul {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+li {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+li a {
+    color: #ffffff;
+    background-color: #1e90ff;
+    font-size: clamp(0.2em, 1.4vw, 3em);
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #ff8644;
+    transform: translateY(-2px);
+}
+
+li a:focus {
+    outline: 3px solid #ffa500;
+    outline-offset: 2px;
+}

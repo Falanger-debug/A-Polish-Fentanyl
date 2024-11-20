@@ -100,7 +100,19 @@ body {
 #score {
     color: #ff8644;
     font-weight: bold;
-    font-size: 1em;
+    font-size: clamp(0.4em, 4vw, 2.4em);
+}
+
+#restart-button{
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    background-color: white;
+    border: solid 2px #ff8644;
+    font-size: clamp(0.2em, 1.6vw, 3em);
+    padding: 20px;
+    border-radius: 55px;
+
 }
 
 .explanation-container {

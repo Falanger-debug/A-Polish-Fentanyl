@@ -6,27 +6,49 @@
   <component name="ChangeListManager">
     <list default="true" id="bbfd7d9b-09e1-4199-bdd8-2416b3c95939" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/en_questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en_questions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/pl_questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/pl_questions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/quiz_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/quiz_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/list-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/list-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/quiz_rest.css" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/quiz_rest.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/footerLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/footerLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/carcinogenicity.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/carcinogenicity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/death-rate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/domestic-violence.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/economic.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/economic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/fas.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/fas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/neurotoxicity.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/neurotoxicity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/pro-impotence.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/pro-impotence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/topics_sites.css" beforeDir="false" afterPath="$PROJECT_DIR$/topics_sites/topics_sites.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/upward-trend.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics_sites/wine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/sources.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/sources_main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/en_questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/en_questions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/pl_questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/pl_questions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/quiz_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/beer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ethanol-formula.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ethanol-formula1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fas_child_face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/globe-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gradient_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gradient_background_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/language.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/man_drinking_beer.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/man_drinking_beer_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/man_drinking_beer1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/man_drinking_beer_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/man_drinking_beer_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/topics_div_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/up-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main_site_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main_site_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/quiz_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/quiz_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/list-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/list-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz_rest.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/quiz_rest.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/footerLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/footerLoader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/headerLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/headerLoader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/scrollButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/scrollButtons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics_sites/carcinogenicity.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/carcinogenicity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics_sites/economic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/economic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics_sites/fas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/fas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics_sites/neurotoxicity.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/neurotoxicity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics_sites/pro-impotence.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/pro-impotence.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics_sites/topics_sites.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/topics_sites.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,44 +83,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.carcinogenicity.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.fas.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.footer.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.header.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.main.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.main_site.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz_1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz_2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.quiz_main.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.headerLoader.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.quiz.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;merits__of__the__website&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.carcinogenicity.html.executor": "Run",
+    "JavaScript Debug.fas.html.executor": "Run",
+    "JavaScript Debug.footer.html.executor": "Run",
+    "JavaScript Debug.header.html.executor": "Run",
+    "JavaScript Debug.main.html.executor": "Run",
+    "JavaScript Debug.main_site.html.executor": "Run",
+    "JavaScript Debug.quiz.html.executor": "Run",
+    "JavaScript Debug.quiz_1.html.executor": "Run",
+    "JavaScript Debug.quiz_2.html.executor": "Run",
+    "JavaScript Debug.quiz_main.html.executor": "Run",
+    "Node.js.headerLoader.js.executor": "Run",
+    "Node.js.quiz.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "refactorization",
+    "last_opened_file_path": "C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\images" />
-      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\images\gradient_background" />
-      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\main" />
-      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\scripts" />
+      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\src" />
+      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\src\styles" />
+      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\src\html" />
       <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\header" />
+      <recent name="C:\Users\falan\OneDrive\Pulpit\Studies\V_semestr\Techniki_WWW\src\html\topics" />
     </key>
   </component>
   <component name="SharedIndexes">

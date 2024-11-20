@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbfd7d9b-09e1-4199-bdd8-2416b3c95939" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/economic_losses.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/carcinogenicity.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/carcinogenicity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/economic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/fas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/fas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/neurotoxicity.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/neurotoxicity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/pro-impotence.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/pro-impotence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/quiz_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/quiz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/footerLoader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/quiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/scrollButtons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main_site_styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/quiz_rest.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/quiz.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/topics_sites.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/topics_of_discussion.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

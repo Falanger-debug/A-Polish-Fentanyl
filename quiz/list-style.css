@@ -14,7 +14,7 @@ li {
 li a {
     color: #ffffff;
     background-color: #1e90ff;
-    font-size: clamp(0.2em, 0.75vw, 3em);
+    font-size: clamp(0.2em, 1.2vw, 3em);
     display: flex;
     align-items: center;
     padding: 12px 20px;

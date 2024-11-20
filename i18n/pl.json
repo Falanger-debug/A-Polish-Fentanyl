@@ -65,13 +65,33 @@
   "topics_i4_p7": "<b>Diagnostyka FAS:<br></b> Należy uwzględnić wpływ ojca na rozwój płodu w procesie diagnozowania FAS, aby zapewnić dokładniejsze wnioski.",
   "topics_i4_p8": "<b>Rola ojca w zdrowiu dziecka:<br></b> Świadomość wpływu zdrowia ojca na zdrowie potomstwa przed poczęciem powinna stać się równie ważna jak edukacja na temat roli matki.",
 
+  "topics_i5": "Straty ekonomiczne",
+  "topics_i5_h2_2": "Koszty społeczno-ekonomiczne spożywania alkoholu w Polsce (stan na 2020 r.)",
+  "topics_i5_h3_1": "Kluczowe koszty społeczno-ekonomiczne",
+  "topics_i5_p1": "Zidentyfikowane w raporcie ALICE RAP koszty spożycia alkoholu obejmują:<br><b>Śmiertelność i zdrowie:</b><br>- Zwiększona śmiertelność związana z alkoholem.<br>- Skrócony okres życia.<br>- Choroby wątroby, trzustki, układu nerwowego oraz psychiczne.<br><b>Finansowe obciążenia publiczne:</b><br>- Koszty systemu ochrony zdrowia.<br>- Straty Produktu Krajowego Brutto (PKB).<br>- Koszty opieki społecznej (w tym izb wytrzeźwień).<br>- Wydatki na przeciwdziałanie problemom alkoholowym.<br><b>System prawny i bezpieczeństwa:</b><br>- Koszty wymiaru sprawiedliwości, straży granicznej i celnej.<br>- Koszty interwencji policji, sądów, prokuratury i kuratorów sądowych.<br>- Wydatki na system ratowniczo-gaśniczy.",
+  "topics_i5_h3_2": "Zgony związane z alkoholem",
+  "topics_i5_p2": "<b>Roczna liczba zgonów:</b><br>- W 2010 r. – 13 306.<br>- W 2016 r. – 12 599.<br>- Obecnie: ok. 12 tys. zgonów rocznie z bezpośrednich przyczyn alkoholowych.<br>- Uwzględniając przyczyny pośrednie (np. wypadki, nowotwory) – ok. 35 tys. zgonów rocznie.<br>- WHO szacuje, że w Polsce alkohol odpowiada za 6,9% wszystkich zgonów.",
+  "topics_i5_h3_3": "Skrócenie aktywności zawodowej",
+  "topics_i5_p4": "<b>Utrata lat życia:</b><br>- Mężczyźni: 314 989 lat/rocznie.<br>- Kobiety: 90 285 lat/rocznie.<br>- Liczba utraconych lat aktywności zawodowej: 363 355 lat.<br>- Straty wpływów podatkowych i składek zdrowotnych: 2,06 mld PLN rocznie.",
+  "topics_i5_h3_4": "Koszty wymiaru sprawiedliwości",
+  "topics_i5_p5": "- <b>Policja:</b> Koszt obsługi przestępstw alkoholowych: 67,18 mln PLN rocznie.<br>- <b>Prokuratura:</b> Koszt spraw wynikających z alkoholu: 136,81 mln PLN rocznie.<br>- <b>Sądy:</b> Koszt obsługi spraw powszechnych: 185,33 mln PLN rocznie.<br>- <b>Kuratorzy sądowi:</b> Koszty związane ze sprawami alkoholowymi: 70,45 mln PLN rocznie.",
+  "topics_i5_h3_5": "Straż graniczna i służba celno-skarbowa",
+  "topics_i5_p6": "- <b>Straż graniczna:</b> Koszty związane z alkoholem: 92,17 mln PLN rocznie.<br>- <b>Służba celno-skarbowa:</b> Koszty spraw alkoholowych: 73,03 mln PLN rocznie.",
+  "topics_i5_h3_6": "Koszty więziennictwa",
+  "topics_i5_p7": "Szacowane koszty związane z odbywaniem kar za przestępstwa alkoholowe: 226,34 mln PLN rocznie",
+  "topics_i5_h3_7": "Wypadki drogowe w 2020 r.",
+  "topics_i5_p8": "- 2 540 wypadków (10,8% wszystkich).<br>- 327 ofiar śmiertelnych (13,1%).<br>- 2 723 rannych (10,3%).<br>- Główne przyczyny: nieostrożne wejście na jezdnię, jazda pod wpływem alkoholu.",
+  "topics_i5_h3_8": "Zależność pomiędzy dochodami z akcyzy a stratami społecznymi i materialnymi",
+  "topics_i5_p9": "- <b>Koszty materialne i społeczne:</b> 93,3 mld PLN<br>- <b>Dochody z akcyzy:</b> 13,4 mld PLN<br>- <b>Różnica pomiędzy powyższymi:</b> 79,9 mld PLN",
+  "topics_i5_h3_10": "Podsumowanie",
+  "topics_i5_p10": "Spożywanie alkoholu w Polsce generuje ogromne koszty ekonomiczne, społeczne i zdrowotne. Zgony, utracone lata życia i obciążenie systemu publicznego stanowią istotne wyzwania dla polityki zdrowotnej i społecznej. Wciąż jednak nie uwzględniono pełnego zakresu kosztów, co sugeruje ich znaczące niedoszacowanie.",
 
 
 
 
-"topics_i5": "Śmiertelność",
+"topics_i7": "Śmiertelność",
   "topics_i6": "Przemoc domowa",
-  "topics_i7": "Wino i Resveratrol",
+
   "topics_i8": "Akcyza i Straty Ekonomiczne",
   "topics_i9": "Tendencja Wzrostowa Konsumpcji Alkoholu",
   "description": "Opis",

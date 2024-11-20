@@ -97,12 +97,15 @@ section h2{
     color: black;
 }
 section h3{
+    text-align: center;
     font-size: 1.7em;
 }
 section h4{
+    text-align: center;
     font-size: 1.5em;
 }
 section p, li{
+    text-align: justify;
     font-weight: normal;
     color: black;
     font-size: 1.5em;

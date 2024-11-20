@@ -67,7 +67,7 @@ h2{
 p {
     color: black;
     background-color: #ff8644;
-    font-size: clamp(0.2em, 0.9vw, 3em);
+    font-size: clamp(0.2em, 1.3vw, 3em);
     font-weight: bold;
     text-decoration: none;
     padding: 10px 20px;

@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bbfd7d9b-09e1-4199-bdd8-2416b3c95939" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n/en_questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/en_questions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n/pl_questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/pl_questions.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/quiz.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
     "Node.js.headerLoader.js.executor": "Run",
     "Node.js.quiz.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "counting__points__repairs",
     "last_opened_file_path": "C:/Users/falan/OneDrive/Pulpit/Studies/V_semestr/Techniki_WWW/Sober-choice",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -123,7 +124,7 @@
       <workItem from="1732093576479" duration="3898000" />
       <workItem from="1732100846649" duration="3375000" />
       <workItem from="1732111448842" duration="6187000" />
-      <workItem from="1734419457197" duration="2505000" />
+      <workItem from="1734419457197" duration="3549000" />
     </task>
     <servers />
   </component>

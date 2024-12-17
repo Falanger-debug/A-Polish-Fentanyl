@@ -63,11 +63,10 @@
     "question": "Czy picie wina jest dobre dla zdrowia?",
     "choices": [
       "Tak",
-      "To skomplikowane",
       "Nie"
     ],
     "correctAnswer": "B",
-    "explanation": "Wiele badań wskazuje na potencjalne korzyści zdrowotne płynące z umiarkowanego spożycia czerwonego wina. Wynika to głównie z antyoksydantów zawartych w tym trunku, takich jak resweratrol. Niemniej jednak, nie można jednoznacznie stwierdzić, że czerwone wino jest prozdrowotne. Okazuje się, że w krajach takich jak Francja, gdzie spożywanie wina jest powszechne, występuje bardzo wysoka częstość marskości wątroby i raka wątroby związanych z konsumpcją etanolu."
+    "explanation": "Wiele badań wskazuje na potencjalne korzyści zdrowotne płynące z umiarkowanego spożycia czerwonego wina. Wynika to głównie z antyoksydantów zawartych w tym trunku, takich jak resweratrol. Niemniej jednak, nie można stwierdzić, że czerwone wino jest prozdrowotne. Okazuje się, że w krajach takich jak Francja, gdzie spożywanie wina jest powszechne, występuje bardzo wysoka częstość marskości wątroby i raka wątroby związanych z konsumpcją etanolu."
   },
   {
     "question": "Czy ojciec dziecka może być odpowiedzialnym za FAS(płodowy zespół alkoholowy)?",

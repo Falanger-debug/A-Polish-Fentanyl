@@ -47,6 +47,7 @@ function showQuestion() {
         const button = document.createElement("button");
         button.innerText = choice;
         button.classList.add("choice-button");
+        button.disabled = false;
         button.addEventListener("click", () => selectAnswer(index));
         choicesContainer.appendChild(button);
     });
@@ -65,6 +66,10 @@ function hideQuestion() {
 }
 
 function selectAnswer(selectedIndex) {
+    if (selectedAnswerIndex !== null) {
+        return;
+    }
+
     const currentQuestion = questions[currentQuestionIndex];
     const choiceButtons = document.querySelectorAll('.choice-button');
 
@@ -79,6 +84,8 @@ function selectAnswer(selectedIndex) {
     if (isCorrect) {
         score++;
     }
+
+    choiceButtons.forEach(button => button.disabled = true);
 
     showExplanation(isCorrect, currentQuestion.explanation);
 

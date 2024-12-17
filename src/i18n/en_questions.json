@@ -63,11 +63,10 @@
     "question": "Is drinking wine good for health?",
     "choices": [
       "Yes",
-      "It's complicated",
       "No"
     ],
     "correctAnswer": "B",
-    "explanation": "Many studies point to the potential health benefits of moderate red wine consumption. This is mainly due to the antioxidants found in the drink, such as resveratrol. However, it cannot be definitively stated that red wine is beneficial for health. It turns out that in countries like France, where wine consumption is common, there is a high incidence of liver cirrhosis and liver cancer associated with ethanol consumption."
+    "explanation": "Many studies point to the potential health benefits of moderate red wine consumption. This is mainly due to the antioxidants found in the drink, such as resveratrol. However, it cannot be stated that red wine is beneficial for health. It turns out that in countries like France, where wine consumption is common, there is a high incidence of liver cirrhosis and liver cancer associated with ethanol consumption."
   },
   {
     "question": "Can the father of the child be responsible for FAS (Fetal Alcohol Syndrome)?",

@@ -5,8 +5,8 @@ let selectedAnswerIndex = null;
 
 document.addEventListener("DOMContentLoaded", async () => {
     await initI18n();
-    await loadQuestions()
-    showQuestion()
+    // await loadQuestions()
+    // showQuestion()
 });
 
 function loadQuestions() {
@@ -85,6 +85,7 @@ function selectAnswer(selectedIndex) {
 }
 
 function showExplanation(isCorrect, explanation) {
+    const currentLang = localStorage.getItem('lang') || 'en';
     const explanationContainer = document.getElementById("explanation-container");
     const explanationText = document.getElementById("explanation-text");
 
@@ -122,6 +123,7 @@ function nextQuestion() {
 
 
 function showResult() {
+    const currentLang = localStorage.getItem('lang') || 'en';
     document.getElementById("question-container").classList.remove("active");
     document.getElementById("result-container").classList.add("active");
     if (currentLang === "en") {

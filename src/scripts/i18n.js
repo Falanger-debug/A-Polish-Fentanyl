@@ -3,6 +3,7 @@ const translations = {
 };
 
 let currentLang = localStorage.getItem('lang') || 'en';
+let isChanging = false;
 
 async function loadTranslations(lang) {
     if (!translations[lang]) {
@@ -13,7 +14,15 @@ async function loadTranslations(lang) {
 }
 
 async function changeLanguage(lang) {
+    if (isChanging) {
+        console.log('Already changing');
+        return;
+
+    }
+    isChanging = true;
+
     const i18n = await loadTranslations(lang);
+
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (i18n[key]) {
@@ -32,17 +41,20 @@ async function changeLanguage(lang) {
 
     localStorage.setItem('lang', lang);
     currentLang = lang;
+    console.log('language changed to ' + lang)
 
-    const path = window.location.pathname
-    if (path.includes("quiz.html")) {
+    if(window.location.pathname.includes("quiz.html")) {
         await loadQuestions();
-        showQuestion();
+        await showQuestion();
     }
+
+    isChanging = false;
 }
 
 
 async function initI18n() {
     await changeLanguage(currentLang);
+    console.log('Current lang in initI18n: ' + currentLang);
 
     const languageSwitch = document.querySelector('.language-switch');
     if (languageSwitch) {
